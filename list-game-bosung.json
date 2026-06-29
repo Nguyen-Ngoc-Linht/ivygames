@@ -1,0 +1,613 @@
+{
+    "list_games": [
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Jago",
+            "slug": "jago",
+            "shortName": "Jago",
+            "categoryId": 2,
+            "code": "JGGAME",
+            "link": "https://ivygames.pages.dev/JAGO/",
+            "shortDescription": "Jago là một tựa game giải trí hấp dẫn với lối chơi nhanh và đầy thử thách. Người chơi sẽ tham gia vào những màn chơi đa dạng, đòi hỏi sự tập trung và phản xạ tốt để vượt qua các chướng ngại vật và đạt điểm số cao. Với đồ họa sinh động cùng cơ chế chơi cuốn hút, trò chơi phù hợp để thư giãn và giải trí mọi lúc mọi nơi.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Air Warfare",
+            "slug": "air-warfare",
+            "shortName": "Air War",
+            "categoryId": 2,
+            "code": "AWGAME",
+            "link": "https://ivygames.pages.dev/Air-Warfare/",
+            "shortDescription": "Air Warfare là một tựa game hành động không chiến hấp dẫn với phong cách chơi nhanh và kịch tính. Người chơi sẽ điều khiển máy bay chiến đấu, xuyên qua làn đạn và tiêu diệt kẻ thù trên bầu trời. Với đồ họa sống động và nhịp độ chơi cuốn hút, trò chơi mang đến trải nghiệm giải trí đầy phấn khích.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Fruit Slasher",
+            "slug": "fruit-slasher",
+            "shortName": "Fruit Slash",
+            "categoryId": 7,
+            "code": "FSGAME",
+            "link": "https://ivygames.pages.dev/Fruit-Slasher/",
+            "shortDescription": "Fruit Slasher là một tựa game giải trí với lối chơi chém hoa quả quen thuộc và đầy cuốn hút. Người chơi sẽ sử dụng ngón tay hoặc chuột để chém những trái cây bay lên màn hình, tránh chém phải bom và cố gắng đạt điểm số cao nhất. Với hình ảnh tươi sáng và nhịp chơi sôi động, trò chơi phù hợp cho mọi lứa tuổi.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                7
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Stick Monkey",
+            "slug": "stick-monkey",
+            "shortName": "Stick Monkey",
+            "categoryId": 2,
+            "code": "SMGAME",
+            "link": "https://ivygames.pages.dev/Stick-Monkey/",
+            "shortDescription": "Stick Monkey là một tựa game phiêu lưu vui nhộn với nhân vật khỉ đáng yêu. Người chơi sẽ điều khiển chú khỉ vượt qua các chướng ngại vật, nhảy qua các nền tảng và thu thập vật phẩm dọc đường. Với lối chơi đơn giản nhưng gây nghiện, trò chơi mang đến những phút giây thư giãn thú vị.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Brick Out",
+            "slug": "brick-out",
+            "shortName": "Brick Out",
+            "categoryId": 1,
+            "code": "BOGAME",
+            "link": "https://ivygames.pages.dev/Brick-Out/",
+            "shortDescription": "Brick Out là một tựa game phá gạch kinh điển với phong cách hiện đại đầy cuốn hút. Người chơi sẽ điều khiển thanh trượt để bắn bóng phá vỡ các viên gạch trên màn hình, vượt qua nhiều cấp độ với độ khó tăng dần. Với lối chơi quen thuộc nhưng đầy thử thách, trò chơi phù hợp cho mọi đối tượng người chơi.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                1
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Fruit Snake",
+            "slug": "fruit-snake",
+            "shortName": "Fruit Snake",
+            "categoryId": 7,
+            "code": "FNGAME",
+            "link": "https://ivygames.pages.dev/Fruit-Snake/",
+            "shortDescription": "Fruit Snake là một tựa game giải trí lấy cảm hứng từ trò chơi rắn săn mồi kinh điển. Người chơi sẽ điều khiển chú rắn di chuyển trên màn hình để ăn các loại trái cây, cơ thể rắn sẽ dài ra sau mỗi lần ăn. Với đồ họa tươi sáng và lối chơi gây nghiện, trò chơi mang đến trải nghiệm giải trí nhẹ nhàng và thú vị.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                7
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Tank Defender",
+            "slug": "tank-defender",
+            "shortName": "Tank Defense",
+            "categoryId": 2,
+            "code": "TDGAME2",
+            "link": "https://ivygames.pages.dev/Tank-Defender/",
+            "shortDescription": "Tank Defender là một tựa game hành động phòng thủ hấp dẫn. Người chơi sẽ điều khiển xe tăng chiến đấu, bảo vệ căn cứ trước những đợt tấn công của kẻ thù. Với nhiều loại vũ khí và cấp độ đa dạng, trò chơi đòi hỏi chiến thuật và phản xạ nhanh nhạy. Đồ họa sống động mang đến trải nghiệm chiến đấu đầy kịch tính.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Fishing Frenzy",
+            "slug": "fishing-frenzy",
+            "shortName": "Fish Frenzy",
+            "categoryId": 7,
+            "code": "FFGAME",
+            "link": "https://ivygames.pages.dev/Fishing-Frenzy/",
+            "shortDescription": "Fishing Frenzy là một tựa game giải trí với chủ đề câu cá vui nhộn và thư giãn. Người chơi sẽ thả câu và bắt những con cá đa dạng trong các vùng nước khác nhau, cố gắng thu thập được nhiều cá nhất có thể. Với hình ảnh sinh động và lối chơi nhẹ nhàng, trò chơi phù hợp để thư giãn trong mọi thời điểm.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                7
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Space Purge",
+            "slug": "space-purge",
+            "shortName": "Space Purge",
+            "categoryId": 2,
+            "code": "SPGAME",
+            "link": "https://ivygames.pages.dev/Space-Purge/",
+            "shortDescription": "Space Purge là một tựa game bắn súng không gian hấp dẫn với nhịp độ nhanh. Người chơi sẽ điều khiển phi thuyền chiến đấu, tiêu diệt các đợt kẻ thù ngoài hành tinh và vượt qua nhiều cấp độ đầy thử thách. Với đồ họa vũ trụ ấn tượng và hiệu ứng bắn phá mãn nhãn, trò chơi mang đến trải nghiệm hành động đầy phấn khích.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Super Cowboy Run",
+            "slug": "super-cowboy-run",
+            "shortName": "Cowboy Run",
+            "categoryId": 2,
+            "code": "SCRGAME",
+            "link": "https://ivygames.pages.dev/Super-Cowboy-Run/",
+            "shortDescription": "Super Cowboy Run là một tựa game chạy vô tận với chủ đề cao bồi miền Tây hoang dã. Người chơi sẽ điều khiển chàng cao bồi chạy, nhảy và né tránh các chướng ngại vật, thu thập vàng và vật phẩm dọc đường. Với phong cách đồ họa vui nhộn và lối chơi cuốn hút, trò chơi phù hợp cho mọi lứa tuổi.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Duck Shooter",
+            "slug": "duck-shooter",
+            "shortName": "Duck Shoot",
+            "categoryId": 2,
+            "code": "DSGAME",
+            "link": "https://ivygames.pages.dev/Duck-Shooter/",
+            "shortDescription": "Duck Shooter là một tựa game bắn súng giải trí với lối chơi đơn giản nhưng cuốn hút. Người chơi sẽ ngắm bắn những chú vịt bay qua màn hình, cố gắng đạt điểm số cao nhất với số đạn giới hạn. Với phong cách đồ họa hoạt hình vui nhộn và cơ chế chơi dễ tiếp cận, trò chơi mang đến những phút giây thư giãn nhẹ nhàng.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Christmas Balloons",
+            "slug": "christmas-balloons",
+            "shortName": "Xmas Balloon",
+            "categoryId": 7,
+            "code": "CBGAME",
+            "link": "https://ivygames.pages.dev/Christmas-Balloons/",
+            "shortDescription": "Christmas Balloons là một tựa game giải trí mang không khí Giáng Sinh vui nhộn và ấm áp. Người chơi sẽ tham gia vào những thử thách bắn bóng bay với chủ đề lễ hội, thu thập quà tặng và đạt điểm số cao. Với đồ họa đầy màu sắc Noel và nhạc nền rộn ràng, trò chơi mang đến trải nghiệm giải trí tuyệt vời trong mùa lễ hội.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                7
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Great Air Battles",
+            "slug": "great-air-battles",
+            "shortName": "Air Battles",
+            "categoryId": 2,
+            "code": "GABGAME",
+            "link": "https://ivygames.pages.dev/Great-Air-Battles/",
+            "shortDescription": "Great Air Battles là một tựa game hành động không chiến hoành tráng. Người chơi sẽ tham gia vào những trận đánh trên không kịch tính, điều khiển máy bay né tránh đạn và tiêu diệt kẻ thù. Với nhiều loại máy bay và cấp độ đa dạng, trò chơi mang đến trải nghiệm chiến đấu đầy phấn khích và thử thách.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Professor Bubble",
+            "slug": "professor-bubble",
+            "shortName": "Prof Bubble",
+            "categoryId": 1,
+            "code": "PBGAME2",
+            "link": "https://ivygames.pages.dev/Professor-Bubble/",
+            "shortDescription": "Professor Bubble là một tựa game bắn bong bóng đầy trí tuệ và cuốn hút. Người chơi sẽ bắn những quả bong bóng màu sắc để ghép nhóm và phá vỡ chúng, vượt qua nhiều cấp độ với độ khó tăng dần. Với lối chơi chiến thuật nhẹ nhàng và đồ họa sinh động, trò chơi phù hợp cho mọi lứa tuổi.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                1
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Ninja Run",
+            "slug": "ninja-run",
+            "shortName": "Ninja Run",
+            "categoryId": 2,
+            "code": "NRGAME2",
+            "link": "https://ivygames.pages.dev/Ninja-Run/",
+            "shortDescription": "Ninja Run là một tựa game chạy vô tận với chủ đề ninja đầy kịch tính. Người chơi sẽ điều khiển chiến binh ninja chạy, nhảy và né tránh các bẫy nguy hiểm, thu thập vật phẩm và tiêu diệt kẻ thù trên đường đi. Với lối chơi nhanh và phản xạ cao, trò chơi mang đến trải nghiệm hành động đầy hấp dẫn.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Balloon Paradise",
+            "slug": "balloon-paradise",
+            "shortName": "Balloon Fun",
+            "categoryId": 7,
+            "code": "BPGAME2",
+            "link": "https://ivygames.pages.dev/Balloon-Paradise/",
+            "shortDescription": "Balloon Paradise là một tựa game giải trí với thế giới bóng bay đầy màu sắc và vui nhộn. Người chơi sẽ tham gia vào những thử thách hấp dẫn, bắn và ghép các bóng bay để vượt qua nhiều cấp độ thú vị. Với đồ họa tươi sáng và lối chơi nhẹ nhàng, trò chơi phù hợp để thư giãn và giải trí.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                7
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Hot Jewels",
+            "slug": "hot-jewels",
+            "shortName": "Hot Jewels",
+            "categoryId": 1,
+            "code": "HJGAME",
+            "link": "https://ivygames.pages.dev/Hot-Jewels/",
+            "shortDescription": "Hot Jewels là một tựa game xếp kim cương hấp dẫn với lối chơi match-3 kinh điển. Người chơi sẽ hoán đổi vị trí các viên đá quý lấp lánh để tạo thành hàng 3 hoặc nhiều hơn, thu thập điểm số và vượt qua các cấp độ đầy thử thách. Với hiệu ứng đẹp mắt và lối chơi gây nghiện, trò chơi phù hợp cho mọi đối tượng.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                1
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Smiles",
+            "slug": "smiles",
+            "shortName": "Smiles",
+            "categoryId": 1,
+            "code": "SLGAME",
+            "link": "https://ivygames.pages.dev/Smiles/",
+            "shortDescription": "Smiles là một tựa game giải trí vui nhộn với phong cách đồ họa đáng yêu. Người chơi sẽ tham gia vào những thử thách ghép nối các biểu tượng mặt cười, vượt qua nhiều cấp độ với độ khó tăng dần. Với lối chơi đơn giản nhưng cuốn hút và hình ảnh tươi sáng, trò chơi mang đến những phút giây thư giãn đầy niềm vui.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                1
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Zombie Uprising",
+            "slug": "zombie-uprising",
+            "shortName": "Zombie Rise",
+            "categoryId": 2,
+            "code": "ZUGAME",
+            "link": "https://ivygames.pages.dev/Zombie-Uprising/",
+            "shortDescription": "Zombie Uprising là một tựa game hành động sinh tồn với chủ đề zombie đầy kịch tính. Người chơi sẽ chiến đấu chống lại các đợt tấn công của zombie, sử dụng vũ khí và chiến thuật để bảo vệ bản thân. Với nhiều loại zombie và cấp độ đa dạng, trò chơi mang đến trải nghiệm hành động đầy căng thẳng và hấp dẫn.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Flappy Ball",
+            "slug": "flappy-ball",
+            "shortName": "Flappy Ball",
+            "categoryId": 2,
+            "code": "FBGAME3",
+            "link": "https://ivygames.pages.dev/Flappy-Ball/",
+            "shortDescription": "Flappy Ball là một tựa game giải trí với lối chơi flappy quen thuộc nhưng đầy thử thách. Người chơi sẽ điều khiển quả bóng bay qua các chướng ngại vật bằng cách nhấn màn hình, cố gắng đi được xa nhất có thể. Với lối chơi đơn giản nhưng gây nghiện, trò chơi phù hợp để thử thách bản thân mọi lúc mọi nơi.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Flappy Bounce",
+            "slug": "flappy-bounce",
+            "shortName": "Flappy Bounce",
+            "categoryId": 2,
+            "code": "FBNGAME",
+            "link": "https://ivygames.pages.dev/Flappy-Bounce/",
+            "shortDescription": "Flappy Bounce là một tựa game giải trí kết hợp lối chơi flappy và nảy bóng đầy cuốn hút. Người chơi sẽ điều khiển vật thể nảy qua các chướng ngại vật, đòi hỏi sự tập trung và phản xạ nhanh. Với đồ họa sinh động và lối chơi đơn giản nhưng thử thách, trò chơi mang đến trải nghiệm giải trí nhẹ nhàng và thú vị.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Bashorun",
+            "slug": "bashorun",
+            "shortName": "Bashorun",
+            "categoryId": 2,
+            "code": "BRGAME2",
+            "link": "https://ivygames.pages.dev/Bashorun/",
+            "shortDescription": "Bashorun là một tựa game chạy vô tận với phong cách hành động và phiêu lưu hấp dẫn. Người chơi sẽ điều khiển nhân vật chạy, nhảy và né tránh các chướng ngại vật, thu thập vật phẩm và đạt điểm số cao nhất. Với lối chơi nhanh và đồ họa sinh động, trò chơi mang đến trải nghiệm giải trí đầy kịch tính.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Splishy Fish",
+            "slug": "splishy-fish",
+            "shortName": "Splish Fish",
+            "categoryId": 2,
+            "code": "SFGAME",
+            "link": "https://ivygames.pages.dev/Splishy-Fish/",
+            "shortDescription": "Splishy Fish là một tựa game giải trí với chủ đề cá vui nhộn và dễ thương. Người chơi sẽ điều khiển chú cá bơi qua các chướng ngại vật dưới nước, thu thập vật phẩm và cố gắng đi được xa nhất có thể. Với đồ họa đáng yêu và lối chơi cuốn hút, trò chơi phù hợp cho mọi lứa tuổi.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Scary Run",
+            "slug": "scary-run",
+            "shortName": "Scary Run",
+            "categoryId": 2,
+            "code": "SCGAME",
+            "link": "https://ivygames.pages.dev/Scary-Run/",
+            "shortDescription": "Scary Run là một tựa game chạy vô tận với chủ đề kinh dị đầy kịch tính. Người chơi sẽ điều khiển nhân vật chạy trốn trong bóng tối, né tránh các quái vật và bẫy nguy hiểm trên đường đi. Với bầu không khí rùng rợn và lối chơi nhanh, trò chơi mang đến trải nghiệm hành động đầy hồi hộp.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Monsters Match 3",
+            "slug": "monsters-match-3",
+            "shortName": "Monster Match",
+            "categoryId": 1,
+            "code": "MMGAME",
+            "link": "https://ivygames.pages.dev/Monsters-Match-3/",
+            "shortDescription": "Monsters Match 3 là một tựa game xếp hình match-3 với chủ đề quái vật vui nhộn. Người chơi sẽ hoán đổi vị trí các quái vật đáng yêu để tạo thành hàng 3 hoặc nhiều hơn, thu thập điểm số và vượt qua nhiều cấp độ đa dạng. Với đồ họa hoạt hình sinh động và lối chơi gây nghiện, trò chơi phù hợp cho mọi đối tượng.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                1
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Math Game For Kids",
+            "slug": "math-game-for-kids",
+            "shortName": "Math Kids",
+            "categoryId": 1,
+            "code": "MKGAME",
+            "link": "https://ivygames.pages.dev/Math-Game-For-Kids/",
+            "shortDescription": "Math Game For Kids là một tựa game giáo dục giúp trẻ em học toán một cách vui nhộn. Người chơi sẽ giải các bài toán cộng, trừ, nhân, chia với độ khó tăng dần, thu thập phần thưởng và đạt thành tích cao. Với giao diện thân thiện và hình ảnh đáng yêu, trò chơi giúp trẻ phát triển tư duy toán học một cách tự nhiên.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                1
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Donut Crash Saga",
+            "slug": "donut-crash-saga",
+            "shortName": "Donut Crash",
+            "categoryId": 1,
+            "code": "DCGAME",
+            "link": "https://ivygames.pages.dev/Donut-Crash-Saga/",
+            "shortDescription": "Donut Crash Saga là một tựa game match-3 với chủ đề bánh donut ngọt ngào và hấp dẫn. Người chơi sẽ ghép nối các chiếc bánh donut nhiều màu sắc để phá vỡ chúng, vượt qua nhiều cấp độ với mục tiêu đa dạng. Với đồ họa tươi sáng và lối chơi gây nghiện, trò chơi mang đến trải nghiệm giải trí ngọt ngào và thú vị.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                1
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Stick Panda",
+            "slug": "stick-panda",
+            "shortName": "Stick Panda",
+            "categoryId": 2,
+            "code": "SPGAME2",
+            "link": "https://ivygames.pages.dev/Stick-Panda/",
+            "shortDescription": "Stick Panda là một tựa game phiêu lưu với nhân vật gấu trúc đáng yêu. Người chơi sẽ điều khiển chú gấu trúc vượt qua các chướng ngại vật, nhảy qua các nền tảng và thu thập vật phẩm trên đường đi. Với lối chơi đơn giản và đồ họa hoạt hình dễ thương, trò chơi phù hợp cho mọi lứa tuổi.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                2
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        },
+        {
+            "price": 0,
+            "type": "G4",
+            "status": "ACTIVE",
+            "developer": 1,
+            "name": "Crazy Car",
+            "slug": "crazy-car",
+            "shortName": "Crazy Car",
+            "categoryId": 6,
+            "code": "CCGAME2",
+            "link": "https://ivygames.pages.dev/Crazy-Car/",
+            "shortDescription": "Crazy Car là một tựa game đua xe với lối chơi nhanh và đầy kịch tính. Người chơi sẽ điều khiển chiếc xe lao nhanh trên đường, né tránh các phương tiện khác và thu thập vật phẩm để đạt điểm số cao. Với đồ họa sống động và nhịp độ chơi cuốn hút, trò chơi mang đến trải nghiệm đua xe đầy phấn khích.",
+            "description": "<p>Trò chơi vô cùng đơn giản:</p><p>+ Điện thoại: Nhấn vào màn hình.</p><p>+ Máy tính: sử dụng chuột trái&nbsp;nhấp vào màn hình</p>",
+            "categoryIds": [
+                6
+            ],
+            "servers": [],
+            "builds": [],
+            "versions": [],
+            "events": []
+        }
+    ]
+}

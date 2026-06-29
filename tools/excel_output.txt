@@ -1,0 +1,308 @@
+Sheet name: Trang_tính1
+Max row: 1001
+Max col: 10
+
+Row 1: DANH SÁCH GAME |  |  |  |  |  |  |  |  | 
+Row 2:  |  |  |  |  |  |  |  |  | 
+Row 3: STT | Tên |  | Mã code | Slug | Link | Mô tả | Hướng dẫn chơi | Link lưu file | Logo (1:1)
+Row 4:  | Name | Short Name |  |  |  |  |  |  | 
+Row 5: 1 | Collect The Fruits  | Fruit Collect | FCGAME | collect-the-fruits | https://ivygames.pages.dev/Collect-The-Fruit/ | Collect The Fruits là một tựa game giải trí hấp dẫn mang phong cách vui nhộn và dễ tiếp cận. Người chơi sẽ bước vào những màn chơi đầy màu sắc với nhiệm vụ thu thập vật phẩm, vượt qua thử thách và đạt điểm số cao nhất. Với lối chơi đơn giản nhưng gây cuốn hút, trò chơi phù hợp cho mọi lứa tuổi và mang lại những phút giây thư giãn nhẹ nhàng. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Collect-The-Fruit
+Row 6: 2 | Blast The Balloons | Balloon Blast | BBGAME | blast-the-balloons | https://ivygames.pages.dev/Blast-The-Balloons/ | Blast The Balloons là một tựa game giải trí với lối chơi nhanh, vui nhộn và đầy thử thách. Người chơi sẽ tham gia vào những màn chơi hấp dẫn, nơi yêu cầu sự nhanh tay, phản xạ tốt và khả năng đạt điểm số cao. Với phong cách đồ họa sinh động cùng cơ chế chơi đơn giản nhưng cuốn hút, trò chơi phù hợp để thư giãn và chinh phục thành tích ở mọi lúc mọi nơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Blast-The-Balloons
+Row 7: 3 | Space Game  | Space Run | SRGAME | space-game | https://ivygames.pages.dev/Space-Game/ | Space Game là một tựa game mang chủ đề không gian và vũ trụ với phong cách chơi hấp dẫn, lôi cuốn. Người chơi sẽ tham gia vào những thử thách đa dạng, khám phá môi trường rộng lớn và chinh phục các nhiệm vụ đầy thú vị. Với hình ảnh sống động cùng nhịp độ chơi cuốn hút, trò chơi mang đến trải nghiệm giải trí phù hợp cho nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Space-Game
+Row 8: 4 | Ninja Ballance | Ninja Balance | NBGAME | ninja-ballance | https://ivygames.pages.dev/Ninja-Ballance/ | Ninja Ballance là một tựa game hành động giải trí với phong cách chơi linh hoạt và đầy thử thách. Người chơi sẽ điều khiển nhân vật vượt qua nhiều màn chơi hấp dẫn, đòi hỏi sự khéo léo, phản xạ và khả năng kiểm soát chính xác. Với lối chơi đơn giản nhưng gây cuốn hút, trò chơi mang đến trải nghiệm thú vị và phù hợp với nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Ninja-Ballance
+Row 9: 5 | Blow Up The Balloons | Balloon Pop | BPGAME | blow-up-the-balloons | https://ivygames.pages.dev/Blow-Up-The-Balloons/ | Blow Up The Balloons là một tựa game giải trí vui nhộn với lối chơi đơn giản nhưng đầy cuốn hút. Người chơi sẽ tham gia vào những thử thách hấp dẫn, yêu cầu phản xạ nhanh và khả năng xử lý chính xác để đạt điểm số cao. Với phong cách hình ảnh sinh động cùng nhịp độ chơi nhẹ nhàng, trò chơi phù hợp để thư giãn và giải trí trong mọi thời điểm. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Blow-Up-The-Balloons
+
+--- ALL DATA ROWS ---
+Row 1: DANH SÁCH GAME |  |  |  |  |  |  |  |  | 
+Row 3: STT | Tên |  | Mã code | Slug | Link | Mô tả | Hướng dẫn chơi | Link lưu file | Logo (1:1)
+Row 4:  | Name | Short Name |  |  |  |  |  |  | 
+Row 5: 1 | Collect The Fruits  | Fruit Collect | FCGAME | collect-the-fruits | https://ivygames.pages.dev/Collect-The-Fruit/ | Collect The Fruits là một tựa game giải trí hấp dẫn mang phong cách vui nhộn và dễ tiếp cận. Người chơi sẽ bước vào những màn chơi đầy màu sắc với nhiệm vụ thu thập vật phẩm, vượt qua thử thách và đạt điểm số cao nhất. Với lối chơi đơn giản nhưng gây cuốn hút, trò chơi phù hợp cho mọi lứa tuổi và mang lại những phút giây thư giãn nhẹ nhàng. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Collect-The-Fruit
+Row 6: 2 | Blast The Balloons | Balloon Blast | BBGAME | blast-the-balloons | https://ivygames.pages.dev/Blast-The-Balloons/ | Blast The Balloons là một tựa game giải trí với lối chơi nhanh, vui nhộn và đầy thử thách. Người chơi sẽ tham gia vào những màn chơi hấp dẫn, nơi yêu cầu sự nhanh tay, phản xạ tốt và khả năng đạt điểm số cao. Với phong cách đồ họa sinh động cùng cơ chế chơi đơn giản nhưng cuốn hút, trò chơi phù hợp để thư giãn và chinh phục thành tích ở mọi lúc mọi nơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Blast-The-Balloons
+Row 7: 3 | Space Game  | Space Run | SRGAME | space-game | https://ivygames.pages.dev/Space-Game/ | Space Game là một tựa game mang chủ đề không gian và vũ trụ với phong cách chơi hấp dẫn, lôi cuốn. Người chơi sẽ tham gia vào những thử thách đa dạng, khám phá môi trường rộng lớn và chinh phục các nhiệm vụ đầy thú vị. Với hình ảnh sống động cùng nhịp độ chơi cuốn hút, trò chơi mang đến trải nghiệm giải trí phù hợp cho nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Space-Game
+Row 8: 4 | Ninja Ballance | Ninja Balance | NBGAME | ninja-ballance | https://ivygames.pages.dev/Ninja-Ballance/ | Ninja Ballance là một tựa game hành động giải trí với phong cách chơi linh hoạt và đầy thử thách. Người chơi sẽ điều khiển nhân vật vượt qua nhiều màn chơi hấp dẫn, đòi hỏi sự khéo léo, phản xạ và khả năng kiểm soát chính xác. Với lối chơi đơn giản nhưng gây cuốn hút, trò chơi mang đến trải nghiệm thú vị và phù hợp với nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Ninja-Ballance
+Row 9: 5 | Blow Up The Balloons | Balloon Pop | BPGAME | blow-up-the-balloons | https://ivygames.pages.dev/Blow-Up-The-Balloons/ | Blow Up The Balloons là một tựa game giải trí vui nhộn với lối chơi đơn giản nhưng đầy cuốn hút. Người chơi sẽ tham gia vào những thử thách hấp dẫn, yêu cầu phản xạ nhanh và khả năng xử lý chính xác để đạt điểm số cao. Với phong cách hình ảnh sinh động cùng nhịp độ chơi nhẹ nhàng, trò chơi phù hợp để thư giãn và giải trí trong mọi thời điểm. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Blow-Up-The-Balloons
+Row 10: 6 | Handless Millionaire | Risk Millionaire | RMGAME | handless-millionaire | https://ivygames.pages.dev/Handless-Millionaire/ | Handless Millionaire là một tựa game giải trí mang phong cách thử thách đầy kịch tính và hồi hộp. Người chơi sẽ phải đưa ra những quyết định nhanh chóng, căn thời gian chính xác và vượt qua hàng loạt tình huống gay cấn để chinh phục phần thưởng giá trị. Với lối chơi đơn giản nhưng tạo cảm giác căng thẳng và cuốn hút, trò chơi mang đến trải nghiệm giải trí độc đáo cho mọi người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Handless Millionaire
+Row 11: 7 | Move The Balloon Safely | Safe Balloon | SBGAME | move-the-balloon-safely | https://ivygames.pages.dev/Move-The-Balloon-Safely/ | Move The Balloon Safely là một tựa game giải trí nhẹ nhàng với lối chơi tập trung vào sự khéo léo và khả năng điều khiển chính xác. Người chơi sẽ vượt qua nhiều thử thách khác nhau để đưa mục tiêu đến nơi an toàn, đồng thời tránh các chướng ngại vật và nguy hiểm trên đường đi. Với phong cách chơi đơn giản nhưng hấp dẫn, trò chơi phù hợp để thư giãn và thử thách kỹ năng phản xạ của người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Move-The-Balloon-Safely
+Row 12: 8 | Stack Jump | Stack Jump | SJGAME | stack-jump | https://ivygames.pages.dev/Stack-Jump/ | Stack Jump là một tựa game giải trí với lối chơi đơn giản nhưng đầy tính gây nghiện. Người chơi sẽ thực hiện những cú nhảy chính xác để chinh phục các tầng cao hơn, đồng thời vượt qua nhiều thử thách đòi hỏi phản xạ và khả năng canh thời gian hợp lý. Với nhịp độ chơi nhanh cùng phong cách hình ảnh sinh động, trò chơi mang đến trải nghiệm vui nhộn và hấp dẫn cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Stack-Jump
+Row 13: 9 | Red Indian | Red Tribe | RTGAME | red-indian | https://ivygames.pages.dev/Mini-Games-Red-Indian/ | Red Indian là một tựa game giải trí tổng hợp với nhiều thử thách đa dạng và phong cách vui nhộn. Người chơi sẽ tham gia vào các màn chơi hấp dẫn lấy cảm hứng từ văn hóa bộ lạc, nơi đòi hỏi sự nhanh nhẹn, khéo léo và khả năng chinh phục mục tiêu trong từng thử thách khác nhau. Với lối chơi đơn giản cùng hình ảnh sinh động, trò chơi mang đến trải nghiệm giải trí thú vị và phù hợp với nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Mini-Games-Red-Indian
+Row 14: 10 | Drop An Apple | Apple Drop | ADGAME | drop-an-apple | https://ivygames.pages.dev/Drop-An-Apple/ | Drop An Apple là một tựa game giải trí nhẹ nhàng với lối chơi đơn giản nhưng đầy cuốn hút. Người chơi sẽ tham gia vào những thử thách đòi hỏi sự chính xác, phản xạ nhanh và khả năng tính toán hợp lý để hoàn thành mục tiêu trong từng màn chơi. Với phong cách hình ảnh vui nhộn cùng nhịp độ chơi thư giãn, trò chơi phù hợp để giải trí mọi lúc mọi nơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Drop-An-Apple
+Row 15: 11 | Drive Safe | Safe Drive | SDGAME | drive-safe | https://ivygames.pages.dev/Mini-Games-Drive-Safe/ | Drive Safe là một tựa game giải trí mang phong cách điều khiển và phản xạ đầy hấp dẫn. Người chơi sẽ tham gia vào những hành trình thử thách, vượt qua nhiều chướng ngại vật và tình huống khác nhau để hoàn thành mục tiêu an toàn. Với lối chơi đơn giản, dễ tiếp cận nhưng vẫn đầy cuốn hút, trò chơi mang đến trải nghiệm giải trí phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Mini-Games-Drive-Safe
+Row 16: 12 | Ninja Jump | Ninja Jump | NJGAME | ninja-jump | https://ivygames.pages.dev/Mini-Games-Ninja-Jump/ | Ninja Jump là một tựa game giải trí hành động với nhịp độ nhanh và lối chơi đầy thử thách. Người chơi sẽ điều khiển nhân vật thực hiện những cú nhảy chính xác, vượt qua chướng ngại vật và chinh phục các màn chơi hấp dẫn. Với phong cách hình ảnh sinh động cùng cơ chế chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm vui nhộn và phù hợp với nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Mini-Games-Ninja-Jump
+Row 17: 13 | Halloween Bubble Shooter | Halloween Shooter | HSGAME | halloween-bubble-shooter | https://ivygames.pages.dev/Halloween-Bubble-Shooter/ | Halloween Bubble Shooter là một tựa game giải trí mang phong cách lễ hội Halloween đầy màu sắc và vui nhộn. Người chơi sẽ tham gia vào các màn chơi hấp dẫn với nhiệm vụ vượt qua thử thách, ghi điểm và chinh phục những cấp độ thú vị. Với hình ảnh đậm chất huyền bí cùng lối chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm giải trí nhẹ nhàng phù hợp với mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Halloween-Bubble-Shooter
+Row 18: 14 | Balloon | Balloon Fun | BFGAME | balloon | https://ivygames.pages.dev/Balloon/ | Balloon là một tựa game giải trí với phong cách nhẹ nhàng và đầy màu sắc. Người chơi sẽ tham gia vào những thử thách thú vị, điều khiển hoặc tương tác với các quả bóng để vượt qua màn chơi và đạt thành tích cao. Với lối chơi đơn giản, dễ tiếp cận nhưng vẫn hấp dẫn, trò chơi mang đến những phút giây thư giãn phù hợp cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Balloon
+Row 19: 15 | Shoot to Apple | Apple Shoot | ASGAME | shoot-to-apple | https://ivygames.pages.dev/Shoot-to-Apple/ | Shoot to Apple là một tựa game giải trí mang phong cách thử thách kỹ năng và độ chính xác. Người chơi sẽ thực hiện những cú bắn chuẩn xác để hoàn thành mục tiêu và vượt qua các màn chơi hấp dẫn. Với lối chơi đơn giản nhưng đầy cuốn hút cùng nhịp độ nhanh, trò chơi mang đến trải nghiệm giải trí thú vị và phù hợp với nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Shoot-to-Apple
+Row 20: 16 | Traffic | Traffic Run | TRGAME | traffic | https://ivygames.pages.dev/Traffic/ | Traffic là một tựa game giải trí mang phong cách tốc độ và phản xạ đầy hấp dẫn. Người chơi sẽ tham gia vào những thử thách liên quan đến giao thông, điều khiển phương tiện hoặc vượt qua các tình huống đông đúc để đạt thành tích cao. Với lối chơi đơn giản nhưng gây cuốn hút cùng nhịp độ nhanh, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Traffic
+Row 21: 17 | Choose Correct Fruit | Fruit Choice | FCGAME2 | choose-correct-fruit | https://ivygames.pages.dev/Choose-Correct-Fruit/ | Choose Correct Fruit là một tựa game giải trí vui nhộn với lối chơi đơn giản nhưng đầy thử thách. Người chơi sẽ phải quan sát, lựa chọn chính xác và hoàn thành các mục tiêu trong từng màn chơi để đạt điểm số cao. Với hình ảnh sinh động cùng cơ chế chơi dễ tiếp cận, trò chơi mang đến trải nghiệm thư giãn và phù hợp với nhiều lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Choose-Correct-Fruit
+Row 22: 18 | Match The Boxes | Box Match | BMGAME | match-the-boxes | https://ivygames.pages.dev/Match-The-Boxes/ | Match The Boxes là một tựa game giải trí mang phong cách ghép nối đầy thú vị và cuốn hút. Người chơi sẽ tham gia vào các màn chơi thử thách khả năng quan sát, tư duy và phản xạ để hoàn thành mục tiêu trong thời gian ngắn nhất. Với lối chơi đơn giản nhưng gây nghiện cùng hình ảnh sinh động, trò chơi mang đến trải nghiệm giải trí phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Match-The-Boxes
+Row 23: 19 | Take off the rocket | Rocket Launch | RLGAME | take-off-the-rocket | https://ivygames.pages.dev/Take-off-the-rocket/ | Take Off The Rocket là một tựa game giải trí mang phong cách hành động và khám phá đầy hấp dẫn. Người chơi sẽ tham gia vào những nhiệm vụ thử thách, điều khiển phương tiện vượt qua các chướng ngại vật và chinh phục những mục tiêu mới. Với lối chơi đơn giản nhưng cuốn hút cùng nhịp độ thú vị, trò chơi mang đến trải nghiệm giải trí phù hợp với nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Take-off-the-rocket
+Row 24: 20 | Destroy the Target | Target Destroy | TDGAME | destroy-the-target | https://ivygames.pages.dev/Destroy-the-Target/ | Destroy The Target là một tựa game giải trí hành động với lối chơi nhanh và đầy thử thách. Người chơi sẽ tham gia vào các nhiệm vụ hấp dẫn, sử dụng kỹ năng và phản xạ để vượt qua chướng ngại vật và hoàn thành mục tiêu trong từng màn chơi. Với cơ chế chơi đơn giản nhưng cuốn hút cùng nhịp độ sôi động, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi đối tượng người chơi | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Destroy-the-Target
+Row 25: 21 | Stick Soldier | Stick Soldier | SSGAME | stick-soldier | https://ivygames.pages.dev/Stick-Soldier/ | Stick Soldier là một tựa game giải trí hành động với phong cách tối giản nhưng đầy cuốn hút. Người chơi sẽ điều khiển nhân vật vượt qua nhiều thử thách, chinh phục các màn chơi và hoàn thành nhiệm vụ bằng sự khéo léo cùng phản xạ nhanh. Với lối chơi đơn giản, dễ tiếp cận cùng nhịp độ hấp dẫn, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Stick-Soldier
+Row 26: 22 | Candy Match 3 | Candy Match | CMGAME | candy-match-3 | https://ivygames.pages.dev/Candy-Match-3/ | Candy Match 3 là một tựa game giải trí theo phong cách ghép hình đầy màu sắc và vui nhộn. Người chơi sẽ tham gia vào các màn chơi hấp dẫn, kết hợp các biểu tượng giống nhau để hoàn thành mục tiêu và chinh phục thử thách mới. Với lối chơi đơn giản nhưng gây cuốn hút cùng hình ảnh tươi sáng, trò chơi mang đến trải nghiệm thư giãn phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Candy-Match-3
+Row 27: 23 | Touch Ball | Ball Touch | BTGAME | touch-ball | https://ivygames.pages.dev/Touch-Ball/ | Touch Ball là một tựa game giải trí với lối chơi đơn giản nhưng đầy tính thử thách. Người chơi sẽ thực hiện các thao tác nhanh và chính xác để hoàn thành mục tiêu trong từng màn chơi. Với nhịp độ chơi linh hoạt, hình ảnh sinh động và cơ chế dễ tiếp cận, trò chơi mang đến trải nghiệm giải trí vui nhộn và phù hợp với nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Touch-Ball
+Row 28: 24 | Cartoon Candy | Candy Cartoon | CCGAME | cartoon-candy | https://ivygames.pages.dev/Cartoon-Candy-Match3/ | Cartoon Candy là một tựa game giải trí với phong cách hoạt hình đầy màu sắc và vui nhộn. Người chơi sẽ tham gia vào những thử thách hấp dẫn, khám phá các màn chơi thú vị và chinh phục nhiều mục tiêu khác nhau. Với hình ảnh tươi sáng cùng lối chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm thư giãn phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Cartoon-Candy-Match3
+Row 29: 25 | Animals Crash Match 3 | Animal Match | AMGAME | animals-crash-match-3 | https://ivygames.pages.dev/Animals-Crush-Match-3/ | Animals Crash Match 3 là một tựa game giải trí theo phong cách ghép hình vui nhộn với chủ đề động vật đầy màu sắc. Người chơi sẽ kết hợp các biểu tượng giống nhau để vượt qua thử thách, hoàn thành mục tiêu và mở khóa những màn chơi mới hấp dẫn. Với lối chơi đơn giản nhưng gây cuốn hút cùng hình ảnh đáng yêu, trò chơi mang đến trải nghiệm thư giãn phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Animals-Crush-Match-3
+Row 30: 26 | Bubble Shooter | Bubble Shooter | BSGAME | bubble-shooter | https://ivygames.pages.dev/Bubble-Shooter/ | Bubble Shooter là một tựa game giải trí mang phong cách bắn ghép đầy vui nhộn và cuốn hút. Người chơi sẽ thực hiện các pha bắn chính xác để kết hợp và phá vỡ những cụm bong bóng, vượt qua các thử thách trong từng màn chơi. Với lối chơi đơn giản, dễ tiếp cận cùng hình ảnh nhiều màu sắc, trò chơi mang đến trải nghiệm thư giãn phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Bubble-Shooter
+Row 31: 27 | Halloween Match 3 | Halloween Match | HMGAME | halloween-match-3 | https://ivygames.pages.dev/Halloween-Match-3/ | Halloween Match 3 là một tựa game giải trí theo phong cách ghép hình với chủ đề Halloween đầy huyền bí và vui nhộn. Người chơi sẽ kết hợp các biểu tượng giống nhau để vượt qua thử thách, hoàn thành nhiệm vụ và mở khóa những màn chơi hấp dẫn. Với hình ảnh mang đậm không khí lễ hội cùng lối chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm thư giãn thú vị cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Halloween-Match-3
+Row 32: 28 | Lollipops Match 3 | Lollipop Match | LMGAME | lollipops-match-3 | https://ivygames.pages.dev/Lollipops-Match-3/ | Lollipops Match 3 là một tựa game giải trí theo phong cách ghép hình đầy màu sắc và vui nhộn. Người chơi sẽ kết hợp các biểu tượng giống nhau để vượt qua thử thách, hoàn thành mục tiêu và khám phá nhiều màn chơi hấp dẫn. Với hình ảnh tươi sáng cùng lối chơi đơn giản nhưng gây cuốn hút, trò chơi mang đến trải nghiệm thư giãn phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Lollipops-Match-3
+Row 33: 29 | Christmas Match 3 | Xmas Match | XMGAME | christmas-match-3 | https://ivygames.pages.dev/Christmas-Match-3/ | Christmas Match 3 là một tựa game giải trí theo phong cách ghép hình với chủ đề Giáng Sinh đầy màu sắc và ấm áp. Người chơi sẽ kết hợp các biểu tượng giống nhau để vượt qua thử thách, hoàn thành mục tiêu và khám phá nhiều màn chơi thú vị. Với hình ảnh mang đậm không khí lễ hội cùng lối chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm thư giãn phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Christmas-Match-3
+Row 34: 30 | Boat Rush Game | Boat Rush | BRGAME | boat-rush-game | https://ivygames.pages.dev/Boat-Rush/ | Boat Rush Game là một tựa game giải trí mang phong cách tốc độ và phản xạ đầy hấp dẫn. Người chơi sẽ điều khiển phương tiện vượt qua nhiều thử thách, né tránh chướng ngại vật và chinh phục những hành trình đầy kịch tính trên mặt nước. Với lối chơi đơn giản nhưng cuốn hút cùng nhịp độ sôi động, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Boat-Rush
+Row 35: 31 | Bottle Flip | Bottle Flip | BFGAME2 | bottle-flip | https://ivygames.pages.dev/Bottle-Flip/ | Bottle Flip là một tựa game giải trí vui nhộn với lối chơi đơn giản nhưng đầy thử thách. Người chơi sẽ thực hiện những cú tung và lật chính xác để hoàn thành mục tiêu, vượt qua các màn chơi và đạt điểm số cao nhất. Với cơ chế chơi dễ tiếp cận cùng nhịp độ gây cuốn hút, trò chơi mang đến trải nghiệm thư giãn và giải trí phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Bottle-Flip
+Row 36: 32 | Bouncing Ball | Ball Bounce | BBGAME2 | bouncing-ball | https://ivygames.pages.dev/Bouncing-Ball/ | Bouncing Ball là một tựa game giải trí với lối chơi đơn giản nhưng đầy cuốn hút. Người chơi sẽ điều khiển quả bóng vượt qua nhiều thử thách, né tránh chướng ngại vật và chinh phục các màn chơi hấp dẫn. Với nhịp độ linh hoạt cùng phong cách hình ảnh sinh động, trò chơi mang đến trải nghiệm thư giãn và phù hợp với nhiều đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Bouncing-Ball
+Row 37: 33 | Bubble Pet Sage | Pet Bubble | PBGAME | bubble-pet-sage | https://ivygames.pages.dev/Bubble-Pet-Sagas/ | Bubble Pet Sage là một tựa game giải trí vui nhộn với phong cách đầy màu sắc và đáng yêu. Người chơi sẽ tham gia vào những màn chơi hấp dẫn, vượt qua thử thách và khám phá thế giới của các nhân vật thú cưng độc đáo. Với lối chơi đơn giản nhưng cuốn hút cùng hình ảnh sinh động, trò chơi mang đến trải nghiệm thư giãn phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Bubble-Pet-Sagas
+Row 38: 34 | Car Racing | Car Racing | CRGAME | car-racing | https://ivygames.pages.dev/Car-Racing/ | Car Racing là một tựa game giải trí mang phong cách tốc độ và cạnh tranh đầy hấp dẫn. Người chơi sẽ điều khiển những chiếc xe mạnh mẽ, vượt qua các thử thách và chinh phục nhiều đường đua kịch tính để đạt thành tích cao nhất. Với lối chơi đơn giản nhưng cuốn hút cùng nhịp độ sôi động, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Car-Racing
+Row 39: 35 | Circle Pong | Circle Pong | CPGAME | circle-pong | https://ivygames.pages.dev/circle-pong/ | Circle Pong là một tựa game giải trí mang phong cách arcade với lối chơi đơn giản nhưng đầy thử thách. Người chơi sẽ điều khiển và phản xạ nhanh để giữ nhịp trận đấu, vượt qua các thử thách và đạt điểm số cao nhất. Với nhịp độ chơi linh hoạt cùng phong cách hình ảnh tối giản nhưng cuốn hút, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | circle-pong
+Row 40: 36 | Block It | Block It | BIGAME | block-it | https://ivygames.pages.dev/Block-It/ | Block It là một tựa game giải trí với lối chơi nhanh và đầy tính thử thách. Người chơi sẽ cần phản xạ chính xác, điều khiển hợp lý và vượt qua nhiều tình huống khác nhau để hoàn thành mục tiêu trong từng màn chơi. Với cơ chế chơi đơn giản nhưng cuốn hút cùng nhịp độ hấp dẫn, trò chơi mang đến trải nghiệm giải trí phù hợp cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Block-It
+Row 41: 37 | Freaky Math | Math Freak | MFGAME | freaky-math | https://ivygames.pages.dev/Freaky-Math/ | Freaky Math là một tựa game giải trí kết hợp giữa tốc độ và khả năng tính toán đầy thú vị. Người chơi sẽ phải đưa ra đáp án chính xác trong thời gian ngắn để vượt qua các thử thách và đạt điểm số cao. Với lối chơi đơn giản nhưng gây cuốn hút cùng nhịp độ nhanh, trò chơi mang đến trải nghiệm vừa giải trí vừa rèn luyện tư duy cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Freaky-Math
+Row 42: 38 | Cars | Car Drive | CDGAME | cars | https://ivygames.pages.dev/Two-Cars/ | Cars là một tựa game giải trí mang phong cách tốc độ và hành động đầy hấp dẫn. Người chơi sẽ điều khiển các phương tiện vượt qua nhiều thử thách, chinh phục các màn chơi và đạt thành tích cao nhất. Với lối chơi đơn giản nhưng cuốn hút cùng hình ảnh sinh động, trò chơi mang đến trải nghiệm giải trí thú vị phù hợp cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Two-Cars
+Row 43: 39 | Super Cow Jet | Cow Jet | CJGAME | super-cow-jet | https://ivygames.pages.dev/Super-Cow-Jet/ | Super Cow Jet là một tựa game giải trí vui nhộn với phong cách hành động và phiêu lưu đầy hấp dẫn. Người chơi sẽ điều khiển nhân vật vượt qua nhiều thử thách, né tránh chướng ngại vật và chinh phục các màn chơi thú vị. Với hình ảnh sinh động cùng lối chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm giải trí phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Super-Cow-Jet
+Row 44: 40 | Color Pump | Color Pump | CPGAME2 | color-pump | https://ivygames.pages.dev/Color-Pump/ | Color Pump là một tựa game giải trí với phong cách đầy màu sắc và nhịp độ hấp dẫn. Người chơi sẽ tham gia vào những thử thách thú vị, điều khiển và tương tác với các yếu tố màu sắc để hoàn thành mục tiêu trong từng màn chơi. Với lối chơi đơn giản nhưng cuốn hút cùng hình ảnh sinh động, trò chơi mang đến trải nghiệm thư giãn phù hợp cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Color-Pump
+Row 45: 41 | Flappy Color Ball | Flappy Ball | FBGAME | flappy-color-ball | https://ivygames.pages.dev/Flappy-Color-Ball/ | Flappy Color Ball là một tựa game giải trí với lối chơi phản xạ nhanh và đầy thử thách. Người chơi sẽ điều khiển quả bóng vượt qua các chướng ngại vật, canh thời điểm chính xác và chinh phục điểm số cao nhất. Với phong cách hình ảnh nhiều màu sắc cùng cơ chế chơi đơn giản nhưng gây cuốn hút, trò chơi mang đến trải nghiệm giải trí thú vị phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Flappy-Color-Ball
+Row 46: 42 | Flappy Color Birds | Flappy Birds | FBGAME2 | flappy-color-birds | https://ivygames.pages.dev/Flappy-Color-Birds/ | Flappy Color Birds là một tựa game giải trí với lối chơi phản xạ nhanh và đầy cuốn hút. Người chơi sẽ điều khiển những chú chim đầy màu sắc vượt qua các chướng ngại vật, thu thập điểm số và chinh phục những thử thách hấp dẫn. Với phong cách hình ảnh vui nhộn cùng cơ chế chơi đơn giản nhưng gây nghiện, trò chơi mang đến trải nghiệm giải trí phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Flappy-Color-Birds
+Row 47: 43 | Flappy Dove | Flappy Dove | FDGAME | flappy-dove | https://ivygames.pages.dev/Flappy-Dove/ | Flappy Dove là một tựa game giải trí với phong cách điều khiển đơn giản nhưng đầy thử thách. Người chơi sẽ điều khiển chú chim bồ câu vượt qua các chướng ngại vật, giữ nhịp bay ổn định và đạt điểm số cao nhất. Với hình ảnh nhẹ nhàng cùng nhịp độ chơi cuốn hút, trò chơi mang đến trải nghiệm giải trí thú vị và phù hợp cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Flappy-Dove
+Row 48: 44 | Flapcat Copters | Flapcat Copter | FCCGAME | flapcat-copters | https://ivygames.pages.dev/Flap-Cat-Copter/ | Flapcat Copters là một tựa game giải trí vui nhộn với phong cách hành động và phản xạ đầy hấp dẫn. Người chơi sẽ điều khiển nhân vật vượt qua các chướng ngại vật, chinh phục thử thách và đạt điểm số cao nhất trong những màn chơi sôi động. Với hình ảnh hoạt hình đáng yêu cùng lối chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm giải trí phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Flap-Cat-Copter
+Row 49: 45 | Flapcat Halloween | Flapcat Halloween | FCHGAME | flapcat-halloween | https://ivygames.pages.dev/Flap-Cat-Halloween/ | Flapcat Halloween là một tựa game giải trí mang phong cách Halloween vui nhộn và đầy thử thách. Người chơi sẽ điều khiển nhân vật vượt qua các chướng ngại vật, chinh phục điểm số cao và khám phá những màn chơi đậm chất lễ hội huyền bí. Với hình ảnh hoạt hình sinh động cùng lối chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm giải trí thú vị phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Flap-Cat-Halloween
+Row 50: 46 | Gravity Ball | Gravity Ball | GBGAME | gravity-ball | https://ivygames.pages.dev/Gravity-Ball/ | Gravity Ball là một tựa game giải trí với lối chơi phản xạ nhanh và đầy thử thách. Người chơi sẽ điều khiển quả bóng vượt qua nhiều chướng ngại vật, thay đổi hướng di chuyển và chinh phục các màn chơi hấp dẫn. Với cơ chế chơi đơn giản nhưng gây cuốn hút cùng nhịp độ linh hoạt, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Gravity-Ball
+Row 51: 47 | Math Genius | Math Genius | MGGAME | math-genius | https://ivygames.pages.dev/Math-Genius/ | Math Genius là một tựa game giải trí kết hợp tư duy và tốc độ đầy thú vị. Người chơi sẽ giải quyết các thử thách liên quan đến tính toán, logic và phản xạ để đạt điểm số cao nhất. Với lối chơi đơn giản nhưng cuốn hút cùng nhịp độ hấp dẫn, trò chơi mang đến trải nghiệm vừa giải trí vừa rèn luyện khả năng tư duy cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Math-Genius
+Row 52: 48 | Mine Rusher | Mine Rush | MRGAME | mine-rusher | https://ivygames.pages.dev/Mine-Rusher/ | Mine Rusher là một tựa game giải trí mang phong cách phiêu lưu và phản xạ đầy hấp dẫn. Người chơi sẽ điều khiển nhân vật vượt qua những con đường nguy hiểm, né tránh chướng ngại vật và chinh phục các thử thách trong hành trình khám phá hầm mỏ. Với lối chơi đơn giản nhưng gây cuốn hút cùng nhịp độ nhanh, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Mine-Rusher
+Row 53: 49 | Monster RUN  | Monster Run | MRGAME2 | monster-run | https://ivygames.pages.dev/Monster-Run/ | Monster RUN là một tựa game giải trí với phong cách chạy vượt chướng ngại đầy sôi động và hấp dẫn. Người chơi sẽ điều khiển nhân vật vượt qua các thử thách, né tránh nguy hiểm và chinh phục quãng đường dài nhất để đạt điểm số cao. Với lối chơi đơn giản nhưng cuốn hút cùng nhịp độ nhanh, trò chơi mang đến trải nghiệm giải trí thú vị phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Monster-Run
+Row 54: 50 | Rocket Space | Rocket Space | RSGAME | rocket-space | https://ivygames.pages.dev/Rocket-Space/ | Rocket Space là một tựa game giải trí mang phong cách không gian và phiêu lưu đầy hấp dẫn. Người chơi sẽ điều khiển tên lửa vượt qua nhiều thử thách, khám phá vũ trụ rộng lớn và chinh phục các nhiệm vụ thú vị trong hành trình của mình. Với hình ảnh sinh động cùng lối chơi đơn giản nhưng cuốn hút, trò chơi mang đến trải nghiệm giải trí phù hợp cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Rocket-Space
+Row 55: 51 | Running Ninja | Ninja Run | NRGAME | running-ninja | https://ivygames.pages.dev/Running-Ninja/ | Running Ninja là một tựa game giải trí mang phong cách chạy vượt chướng ngại vật đầy tốc độ và thử thách. Người chơi sẽ điều khiển nhân vật ninja di chuyển linh hoạt, né tránh nguy hiểm và chinh phục các màn chơi với độ khó tăng dần. Với lối chơi đơn giản nhưng cuốn hút cùng nhịp độ nhanh, trò chơi mang đến trải nghiệm giải trí thú vị và phù hợp cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Running-Ninja
+Row 56: 52 | Sling Tomb | Sling Tomb | STGAME | sling-tomb | https://ivygames.pages.dev/Sling-Tomb/ | Sling Tomb là một tựa game giải trí mang phong cách phiêu lưu và phản xạ đầy hấp dẫn. Người chơi sẽ điều khiển nhân vật vượt qua các chướng ngại vật, khám phá những khu vực bí ẩn và chinh phục các thử thách trong hành trình. Với lối chơi đơn giản nhưng cuốn hút cùng nhịp độ linh hoạt, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | Sling-Tomb
+Row 57: 53 | ZigZag Ball  | ZigZag Ball | ZZBGAME | zigzag-ball | https://ivygames.pages.dev/ZigZag-Ball/ | ZigZag Ball là một tựa game giải trí với lối chơi phản xạ nhanh và đầy cuốn hút. Người chơi sẽ điều khiển quả bóng di chuyển theo đường ziczac, vượt qua các chướng ngại vật và chinh phục những thử thách ngày càng khó hơn. Với cơ chế đơn giản nhưng gây nghiện cùng nhịp độ linh hoạt, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi lứa tuổi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | ZigZag-Ball
+Row 58: 54 | ZigZag Color  | ZigZag Color | ZZCGAME | zigzag-color | https://ivygames.pages.dev/ZigZag-Color/ | ZigZag Color là một tựa game giải trí với lối chơi phản xạ nhanh và đầy cuốn hút. Người chơi sẽ điều khiển nhân vật di chuyển theo đường ziczac, vượt qua các chướng ngại vật và thích ứng với những thay đổi màu sắc liên tục. Với cơ chế đơn giản nhưng gây nghiện cùng nhịp độ ngày càng tăng, trò chơi mang đến trải nghiệm giải trí thú vị cho mọi đối tượng người chơi. | Trò chơi vô cùng đơn giản:
++ Điện thoại: Nhấn vào màn hình.
++ Máy tính: sử dụng chuột trái  nhấp vào màn hình
+
+ | https://drive.google.com/drive/folders/1BMe639s1BhUuUgNDWe81aHbDnmlM33b5?usp=drive_link | ZigZag-Color
