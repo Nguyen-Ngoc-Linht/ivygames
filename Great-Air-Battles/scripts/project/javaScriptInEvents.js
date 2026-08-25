@@ -12,24 +12,21 @@ const scriptsInEvents = {
 
 	async Gamesettings_Event96_Act5(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score || 0;
-		const bestScore = Math.max(
-		  runtime.globalVars.HighScore || 0,
-		  score
-		);
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = Math.max(runtime.globalVars.HighScore ?? 0, score);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		  gameId: "christmas-match",
-		  score: score,
-		  bestScore: bestScore,
-		  status: "COMPLETED",
+		    gameId: "great-air-battles",
+		    score: score,
+		    bestScore: bestScore,
+		    status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log('end', score, bestScore)
+		console.log("end", score, bestScore, "COMPLETED")
 	},
 
 	async Gamesettings_Event124_Act2(runtime, localVars)
@@ -40,7 +37,7 @@ const scriptsInEvents = {
 		    window.parent.postMessage({
 		    type: "GAME_PAUSE",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "great-air-battles",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
@@ -51,7 +48,7 @@ const scriptsInEvents = {
 		    type: "GAME_RESUME",
 		    userId: runtime.globalVars.UserId,
 		    sessionId: runtime.globalVars.SessionId,
-		    gameId: "christmas-match",
+		    gameId: "great-air-battles",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
@@ -65,7 +62,7 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "great-air-battles",
 		    timestamp: Date.now()
 		}, "*");
 		
@@ -74,15 +71,16 @@ const scriptsInEvents = {
 
 	async Addsettings_Event7_Act2(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_RESTART",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
-		    score: runtime.globalVars.Score,
+		    gameId: "great-air-battles",
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('restart')
+		console.log("restart", score)
 	}
 };
 
