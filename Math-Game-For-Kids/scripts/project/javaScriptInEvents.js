@@ -15,7 +15,7 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "math-game-for-kids",
+		    gameId: "christmas-match",
 		    timestamp: Date.now()
 		}, "*");
 		
@@ -24,106 +24,115 @@ const scriptsInEvents = {
 
 	async Game_events_Event13_Act3(runtime, localVars)
 	{
-		const score = runtime.globalVars.CurrentScore ?? 0;
-		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
+		const score = runtime.globalVars.CurrentScore || 0;
+		const bestScore = Math.max(
+		  runtime.globalVars.BestScore || 0,
+		  score
+		);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		    gameId: "math-game-for-kids",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
+		  gameId: "christmas-match",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log("end", score, bestScore, "COMPLETED")
+		console.log('end', score, bestScore)
 	},
 
 	async Game_events_Event33_Act1(runtime, localVars)
 	{
-		const score = runtime.globalVars.CurrentScore ?? 0;
-		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
+		const score = runtime.globalVars.CurrentScore || 0;
+		const bestScore = Math.max(
+		  runtime.globalVars.BestScore || 0,
+		  score
+		);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		    gameId: "math-game-for-kids",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
+		  gameId: "christmas-match",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log("end", score, bestScore, "COMPLETED")
+		console.log('end', score, bestScore)
 	},
 
 	async Game_events_Event38_Act1(runtime, localVars)
 	{
-		const score = runtime.globalVars.CurrentScore ?? 0;
-		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
+		const score = runtime.globalVars.CurrentScore || 0;
+		const bestScore = Math.max(
+		  runtime.globalVars.BestScore || 0,
+		  score
+		);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		    gameId: "math-game-for-kids",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
+		  gameId: "christmas-match",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log("end", score, bestScore, "COMPLETED")
+		console.log('end', score, bestScore)
 	},
 
 	async Game_events_Event43_Act1(runtime, localVars)
 	{
-		const score = runtime.globalVars.CurrentScore ?? 0;
-		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
+		const score = runtime.globalVars.CurrentScore || 0;
+		const bestScore = Math.max(
+		  runtime.globalVars.BestScore || 0,
+		  score
+		);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		    gameId: "math-game-for-kids",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
+		  gameId: "christmas-match",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log("end", score, bestScore, "COMPLETED")
+		console.log('end', score, bestScore)
 	},
 
 	async Game_events_Event52_Act7(runtime, localVars)
 	{
-		const score = runtime.globalVars.CurrentScore ?? 0;
 		window.parent.postMessage({
-		    type: "GAME_RESTART",
+		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "math-game-for-kids",
-		    score: score,
+		    gameId: "christmas-match",
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log("restart", score)
+		console.log('start')
 	},
 
 	async Game_events_Event53_Act2(runtime, localVars)
 	{
-		const score = runtime.globalVars.CurrentScore ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_HOME",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "math-game-for-kids",
-		    score: score,
+		    gameId: "christmas-match",
+		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log("home", score)
+		console.log('home')
 	}
 };
 

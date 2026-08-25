@@ -32,7 +32,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.OnTapGesture,
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
 		C3.Plugins.System.Acts.GoToLayout,
-		C3.JavaScriptInEvents.Start_sht_Event6_Act2,
 		C3.Plugins.Sprite.Cnds.IsOnScreen,
 		C3.Plugins.Particles.Acts.SetPosToObject,
 		C3.Plugins.System.Cnds.IsGroupActive,

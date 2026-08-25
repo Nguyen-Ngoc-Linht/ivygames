@@ -12,54 +12,59 @@ const scriptsInEvents = {
 
 	async Game_sheet_Event33_Act3(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
-		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
+		const score = runtime.globalVars.Score || 0;
+		const bestScore = Math.max(
+		  runtime.globalVars.BestScore || 0,
+		  score
+		);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		    gameId: "math-genius",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
+		  gameId: "math-genius",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log("end", score, bestScore, "COMPLETED")
+		console.log('end', score, bestScore)
 	},
 
 	async Game_sheet_Event36_Act3(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
-		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
+		const score = runtime.globalVars.Score || 0;
+		const bestScore = Math.max(
+		  runtime.globalVars.BestScore || 0,
+		  score
+		);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		    gameId: "math-genius",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
+		  gameId: "math-genius",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log("end", score, bestScore, "COMPLETED")
+		console.log('end', score, bestScore)
 	},
 
 	async Game_sheet_Event37_Act4(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_HOME",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "math-genius",
-		    score: score,
+		    gameId: "christmas-match",
+		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log("home", score)
+		console.log('home')
 	},
 
 	async Menu_sheet_Event1_Act10(runtime, localVars)
@@ -67,7 +72,7 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "math-genius",
+		    gameId: "christmas-match",
 		    timestamp: Date.now()
 		}, "*");
 		

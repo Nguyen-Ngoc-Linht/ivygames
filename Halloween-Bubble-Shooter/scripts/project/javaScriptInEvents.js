@@ -19,7 +19,7 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_EXIT",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "halloween-bubble-shooter",
+		    gameId: "christmas-match",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
@@ -37,49 +37,50 @@ const scriptsInEvents = {
 
 	async Game_events_Event114_Act1(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
-		    type: "GAME_RESTART",
+		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
 		    gameId: "halloween-bubble-shooter",
-		    score: score,
+		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log("restart", score)
+		console.log('start')
 	},
 
 	async Game_events_Event118_Act1(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
-		const bestScore = Math.max(runtime.globalVars.HighScore ?? 0, score);
+		const score = runtime.globalVars.Score || 0;
+		const bestScore = Math.max(
+		  runtime.globalVars.HighScore || 0,
+		  score
+		);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		    gameId: "halloween-bubble-shooter",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
+		  gameId: "halloween-bubble-shooter",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log("end", score, bestScore, "COMPLETED")
+		console.log('end', score, bestScore)
 	},
 
 	async Game_events_Event128_Act2(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_HOME",
 		    userId: runtime.globalVars.UserId,
 		    gameId: "halloween-bubble-shooter",
-		    score: score,
+		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log("home", score)
+		console.log('home')
 	}
 };
 

@@ -86,7 +86,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.System.Acts.SubVar,
 		C3.Plugins.Sprite.Acts.SetAngle,
-		C3.JavaScriptInEvents.Game_events_Event86_Act2,
 		C3.Plugins.LocalStorage.Acts.SetItem,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.LocalStorage.Cnds.OnItemMissing,

@@ -7,7 +7,7 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "bubble-shooter",
+		    gameId: "christmas-match",
 		    timestamp: Date.now()
 		}, "*");
 		
@@ -24,49 +24,50 @@ const scriptsInEvents = {
 
 	async Game_events_Event116_Act2(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_RESTART",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "bubble-shooter",
-		    score: score,
+		    gameId: "christmas-match",
+		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log("restart", score)
+		console.log('restart')
 	},
 
 	async Game_events_Event121_Act2(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
-		const bestScore = Math.max(runtime.globalVars.HighScore ?? 0, score);
+		const score = runtime.globalVars.Score || 0;
+		const bestScore = Math.max(
+		  runtime.globalVars.HighScore || 0,
+		  score
+		);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		    gameId: "bubble-shooter",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
+		  gameId: "christmas-match",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log("end", score, bestScore, "COMPLETED")
+		console.log('game-over')
 	},
 
 	async Game_events_Event131_Act2(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_HOME",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "bubble-shooter",
-		    score: score,
+		    gameId: "christmas-match",
+		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log("home", score)
+		console.log('home')
 	}
 };
 
