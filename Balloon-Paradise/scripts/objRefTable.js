@@ -39,6 +39,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.Sprite.Acts.SetWidth,
 		C3.Plugins.System.Cnds.CompareVar,
+		C3.Plugins.System.Cnds.TriggerOnce,
 		C3.Plugins.System.Acts.SetGroupActive,
 		C3.JavaScriptInEvents.Global_events_Event23_Act9,
 		C3.Plugins.LocalStorage.Acts.SetItem,

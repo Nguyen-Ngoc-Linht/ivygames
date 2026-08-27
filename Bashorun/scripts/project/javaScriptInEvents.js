@@ -7,62 +7,63 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "bashorun",
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('start game')
+		console.log("start", runtime.globalVars.UserId)
 	},
 
 	async Addevent_Event35_Act6(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_RESTART",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
-		    score: runtime.globalVars.Score,
+		    gameId: "bashorun",
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('restart', runtime.globalVars.Score)
+		console.log("restart", score)
 	},
 
 	async Addevent_Event38_Act1(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_HOME",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
-		    score: runtime.globalVars.Score,
+		    gameId: "bashorun",
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('home', runtime.globalVars.Score)
+		console.log("home", score)
 	},
 
 	async Addevent_Event40_Act1(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_RESTART",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
-		    score: runtime.globalVars.Score,
+		    gameId: "bashorun",
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('restart')
+		console.log("restart", score)
 	},
 
 	async Addevent_Event42_Act1(runtime, localVars)
 	{
 		window.parent.postMessage({
-		    type: "GAME_START",
+		    type: "GAME_STARTED",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "bashorun",
 		    timestamp: Date.now()
 		}, "*");
-		
-		console.log('start 2')
 	},
 
 	async Addevent_Event45_Act3(runtime, localVars)
@@ -70,10 +71,12 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_EXIT",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "bashorun",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
+		
+		console.log("exit", runtime.globalVars.UserId)
 	},
 
 	async Addevent_Event47_Act1(runtime, localVars)
@@ -81,12 +84,12 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_PAUSE",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "bashorun",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('game-pause')
+		console.log("pause", runtime.globalVars.UserId)
 	},
 
 	async Addevent_Event49_Act1(runtime, localVars)
@@ -95,12 +98,12 @@ const scriptsInEvents = {
 		    type: "GAME_RESUME",
 		    userId: runtime.globalVars.UserId,
 		    sessionId: runtime.globalVars.SessionId,
-		    gameId: "christmas-match",
+		    gameId: "bashorun",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('resume')
+		console.log("resume", runtime.globalVars.UserId)
 	},
 
 	async Addevent_Event152(runtime, localVars)
@@ -118,24 +121,21 @@ const scriptsInEvents = {
 
 	async Gameevent_Event16_Act8(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score || 0;
-		const bestScore = Math.max(
-		  runtime.globalVars.BestScore || 0,
-		  score
-		);
-		
-		console.log('end', score, bestScore)
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		  gameId: "christmas-match",
+		  gameId: "bashorun",
 		  score: score,
 		  bestScore: bestScore,
 		  status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
+		
+		console.log("end", score, bestScore, "COMPLETED")
 	}
 };
 

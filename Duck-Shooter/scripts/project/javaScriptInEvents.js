@@ -12,24 +12,21 @@ const scriptsInEvents = {
 
 	async Game_events_Event10_Act11(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score || 0;
-		const bestScore = Math.max(
-		  runtime.globalVars.BestScore || 0,
-		  score
-		);
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		  gameId: "christmas-match",
-		  score: score,
-		  bestScore: bestScore,
-		  status: "COMPLETED",
+		    gameId: "duck-shooter",
+		    score: score,
+		    bestScore: bestScore,
+		    status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log('end', score, bestScore)
+		console.log("end", score, bestScore, "COMPLETED")
 	},
 
 	async Global_events_Event15_Act2(runtime, localVars)
@@ -37,24 +34,25 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "duck-shooter",
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('start')
+		console.log("start", runtime.globalVars.UserId)
 	},
 
 	async Global_events_Event18_Act2(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_HOME",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
-		    score: runtime.globalVars.Score,
+		    gameId: "duck-shooter",
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('home')
+		console.log("home", score)
 	}
 };
 

@@ -12,46 +12,40 @@ const scriptsInEvents = {
 
 	async Gameevent_Event23_Act5(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score || 0;
-		const bestScore = Math.max(
-		  runtime.globalVars.BestScore || 0,
-		  score
-		);
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		  gameId: "christmas-match",
-		  score: score,
-		  bestScore: bestScore,
-		  status: "COMPLETED",
+		    gameId: "fruit-snake",
+		    score: score,
+		    bestScore: bestScore,
+		    status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log('end 1', score, bestScore)
+		console.log("end", score, bestScore, "COMPLETED")
 	},
 
 	async Gameevent_Event28_Act6(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score || 0;
-		const bestScore = Math.max(
-		  runtime.globalVars.BestScore || 0,
-		  score
-		);
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
 		  userId: runtime.globalVars.UserId,
-		  gameId: "christmas-match",
-		  score: score,
-		  bestScore: bestScore,
-		  status: "COMPLETED",
+		    gameId: "fruit-snake",
+		    score: score,
+		    bestScore: bestScore,
+		    status: "COMPLETED",
 		  duration: 30 - runtime.globalVars.TimeGame,
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log('end 2', score, bestScore)
+		console.log("end", score, bestScore, "COMPLETED")
 	},
 
 	async Global_events_Event38_Act1(runtime, localVars)
@@ -59,49 +53,53 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_START",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "fruit-snake",
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('start')
+		console.log("start", runtime.globalVars.UserId)
 	},
 
 	async Global_events_Event42_Act1(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
-		    type: "GAME_START",
+		    type: "GAME_RESTART",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "fruit-snake",
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('start')
+		console.log("restart", score)
 	},
 
 	async Global_events_Event46_Act1(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_HOME",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
-		    score: runtime.globalVars.Score,
+		    gameId: "fruit-snake",
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('home')
+		console.log("home", score)
 	},
 
 	async Global_events_Event48_Act1(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_RESTART",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
-		    score: runtime.globalVars.Score,
+		    gameId: "fruit-snake",
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('restart')
+		console.log("restart", score)
 	},
 
 	async Global_events_Event53_Act3(runtime, localVars)
@@ -109,12 +107,12 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_EXIT",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "fruit-snake",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('exit')
+		console.log("exit", runtime.globalVars.UserId)
 	},
 
 	async Global_events_Event90_Act1(runtime, localVars)
@@ -122,12 +120,12 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_PAUSE",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "fruit-snake",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('pause')
+		console.log("pause", runtime.globalVars.UserId)
 	},
 
 	async Global_events_Event92_Act1(runtime, localVars)
@@ -136,12 +134,12 @@ const scriptsInEvents = {
 		    type: "GAME_RESUME",
 		    userId: runtime.globalVars.UserId,
 		    sessionId: runtime.globalVars.SessionId,
-		    gameId: "christmas-match",
+		    gameId: "fruit-snake",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('resume')
+		console.log("resume", runtime.globalVars.UserId)
 	},
 
 	async Global_events_Event124(runtime, localVars)

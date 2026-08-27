@@ -54,6 +54,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetY,
 		C3.Plugins.System.Acts.Wait,
 		C3.JavaScriptInEvents.Game_events_Event19_Act10,
+		C3.JavaScriptInEvents.Game_events_Event20_Act10,
+		C3.JavaScriptInEvents.Game_events_Event21_Act10,
 		C3.JavaScriptInEvents.Main_events_Event2_Act4,
 		C3.Plugins.System.Exps.loadingprogress,
 		C3.Plugins.Sprite.Acts.SetWidth,

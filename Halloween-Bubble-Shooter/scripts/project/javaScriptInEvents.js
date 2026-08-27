@@ -11,7 +11,7 @@ const scriptsInEvents = {
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('start')
+		console.log("start", runtime.globalVars.UserId)
 	},
 
 	async Global_events_Event22_Act1(runtime, localVars)
@@ -19,12 +19,12 @@ const scriptsInEvents = {
 		window.parent.postMessage({
 		    type: "GAME_EXIT",
 		    userId: runtime.globalVars.UserId,
-		    gameId: "christmas-match",
+		    gameId: "halloween-bubble-shooter",
 		    score: runtime.globalVars.Score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('exit')
+		console.log("exit", runtime.globalVars.UserId)
 	},
 
 	async Game_events_Event1_Act20(runtime, localVars)
@@ -37,24 +37,22 @@ const scriptsInEvents = {
 
 	async Game_events_Event114_Act1(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
-		    type: "GAME_START",
+		    type: "GAME_RESTART",
 		    userId: runtime.globalVars.UserId,
 		    gameId: "halloween-bubble-shooter",
-		    score: runtime.globalVars.Score,
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('start')
+		console.log("restart", score)
 	},
 
 	async Game_events_Event118_Act1(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score || 0;
-		const bestScore = Math.max(
-		  runtime.globalVars.HighScore || 0,
-		  score
-		);
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = Math.max(runtime.globalVars.HighScore ?? 0, score);
 		
 		window.parent.postMessage({
 		  type: "GAME_END",
@@ -67,20 +65,21 @@ const scriptsInEvents = {
 		  timestamp: Date.now()
 		}, "*");
 		
-		console.log('end', score, bestScore)
+		console.log("end", score, bestScore, "COMPLETED")
 	},
 
 	async Game_events_Event128_Act2(runtime, localVars)
 	{
+		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
 		    type: "GAME_HOME",
 		    userId: runtime.globalVars.UserId,
 		    gameId: "halloween-bubble-shooter",
-		    score: runtime.globalVars.Score,
+		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log('home')
+		console.log("home", score)
 	}
 };
 

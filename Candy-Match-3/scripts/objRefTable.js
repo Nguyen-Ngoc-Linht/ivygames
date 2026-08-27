@@ -76,6 +76,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Arr.Cnds.CompareXY,
 		C3.Plugins.Sprite.Cnds.CompareX,
 		C3.Plugins.System.Acts.SubVar,
+		C3.Plugins.System.Cnds.TriggerOnce,
 		C3.JavaScriptInEvents.Game_events_Event69_Act3,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Sprite.Cnds.OnCollision,
