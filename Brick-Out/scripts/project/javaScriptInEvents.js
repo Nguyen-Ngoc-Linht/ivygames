@@ -29,6 +29,57 @@ const scriptsInEvents = {
 		console.log("end", score, bestScore, "COMPLETED")
 	},
 
+	async Main_events_Event4_Act1(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "brick-out",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId)
+	},
+
+	async Main_events_Event8_Act2(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_EXIT",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "brick-out",
+		    score: runtime.globalVars.Score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("exit", runtime.globalVars.UserId)
+	},
+
+	async Game_over_events_Event16_Act1(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESTART",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "brick-out",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("restart", score)
+	},
+
+	async Game_over_events_Event19_Act1(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "brick-out",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId)
+	},
+
 	async Global_events_Event27_Act1(runtime, localVars)
 	{
 		const score = runtime.globalVars.Score ?? 0;
@@ -82,57 +133,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("resume", runtime.globalVars.UserId)
-	},
-
-	async Main_events_Event4_Act1(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "brick-out",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId)
-	},
-
-	async Main_events_Event8_Act2(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_EXIT",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "brick-out",
-		    score: runtime.globalVars.Score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("exit", runtime.globalVars.UserId)
-	},
-
-	async Game_over_events_Event16_Act1(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_RESTART",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "brick-out",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("restart", score)
-	},
-
-	async Game_over_events_Event19_Act1(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "brick-out",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId)
 	}
 };
 

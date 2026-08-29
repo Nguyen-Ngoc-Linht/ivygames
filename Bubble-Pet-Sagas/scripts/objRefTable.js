@@ -91,22 +91,18 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Arr.Acts.Delete,
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.System.Acts.RestartLayout,
-		C3.JavaScriptInEvents.Gamecode_Event383_Act2,
-		C3.JavaScriptInEvents.Gamecode_Event384_Act2,
 		C3.Plugins.System.Acts.SetGroupActive,
 		C3.Plugins.Spritefont2.Acts.Destroy,
 		C3.Plugins.Sprite.Cnds.CompareY,
 		C3.Plugins.Sprite.Acts.SetY,
 		C3.Plugins.Sprite.Cnds.CompareFrame,
 		C3.Plugins.System.Acts.GoToLayout,
-		C3.JavaScriptInEvents.Menucode_Event13_Act3,
 		C3.Plugins.LocalStorage.Acts.CheckItemExists,
 		C3.Plugins.LocalStorage.Cnds.OnItemExists,
 		C3.Plugins.LocalStorage.Acts.GetItem,
 		C3.Plugins.LocalStorage.Cnds.OnItemGet,
 		C3.Plugins.LocalStorage.Exps.ItemValue,
-		C3.Plugins.LocalStorage.Cnds.OnItemMissing,
-		C3.JavaScriptInEvents.Loadingcode_Event2_Act4
+		C3.Plugins.LocalStorage.Cnds.OnItemMissing
 	];
 };
 self.C3_JsPropNameTable = [
@@ -186,7 +182,6 @@ self.C3_JsPropNameTable = [
 	{ShootCounter: 0},
 	{TileY: 0},
 	{TileX: 0},
-	{UserId: 0},
 	{InShoot: 0},
 	{IsScreenRotate: 0},
 	{Sound: 0}

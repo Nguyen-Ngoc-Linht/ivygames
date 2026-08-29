@@ -33,6 +33,20 @@ const scriptsInEvents = {
 		console.log("home", score)
 	},
 
+	async Game_over_event_Event5_Act6(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESTART",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "splishy-fish",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("restart", score)
+	},
+
 	async Menu_event_Event4_Act6(runtime, localVars)
 	{
 		window.parent.postMessage({
@@ -55,20 +69,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("exit", runtime.globalVars.UserId)
-	},
-
-	async Game_over_event_Event5_Act6(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_RESTART",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "splishy-fish",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("restart", score)
 	}
 };
 

@@ -14,20 +14,6 @@ const scriptsInEvents = {
 		console.log("start", runtime.globalVars.UserId)
 	},
 
-	async Admob_Event7_Act2(runtime, localVars)
-	{
-		const score = runtime.globalVars.SCORE ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_RESTART",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "zigzag-color",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("restart", score)
-	},
-
 	async Game_sht_Event45_Act1(runtime, localVars)
 	{
 		const score = runtime.globalVars.SCORE ?? 0;
@@ -43,6 +29,20 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("end", score, bestScore, "COMPLETED")
+	},
+
+	async Admob_Event7_Act2(runtime, localVars)
+	{
+		const score = runtime.globalVars.SCORE ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESTART",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "zigzag-color",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("restart", score)
 	}
 };
 

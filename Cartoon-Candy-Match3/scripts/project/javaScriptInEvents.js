@@ -2,6 +2,18 @@
 
 const scriptsInEvents = {
 
+	async Main_event_Event5_Act3(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "cartoon-candy-match3",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId)
+	},
+
 	async Game_event_Event2_Act8(runtime, localVars)
 	{
 		const params = new URLSearchParams(window.location.search);
@@ -70,18 +82,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("best_score", bestScore, score)
-	},
-
-	async Main_event_Event5_Act3(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "cartoon-candy-match3",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId)
 	}
 };
 

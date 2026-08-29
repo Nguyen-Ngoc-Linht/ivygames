@@ -2,6 +2,18 @@
 
 const scriptsInEvents = {
 
+	async Menu_sheet_Event1_Act10(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "math-genius",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId)
+	},
+
 	async Game_sheet_Event1_Act11(runtime, localVars)
 	{
 		const params = new URLSearchParams(window.location.search);
@@ -60,18 +72,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("home", score)
-	},
-
-	async Menu_sheet_Event1_Act10(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "math-genius",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId)
 	}
 };
 

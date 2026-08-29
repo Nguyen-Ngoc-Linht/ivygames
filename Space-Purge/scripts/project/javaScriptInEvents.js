@@ -24,6 +24,34 @@ const scriptsInEvents = {
 		console.log("start", runtime.globalVars.UserId)
 	},
 
+	async Addsettings_Event52_Act3(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_HOME",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "space-purge",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("home", score)
+	},
+
+	async Addsettings_Event54_Act3(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_HOME",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "space-purge",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("home", score)
+	},
+
 	async Addsettings_Event58_Act3(runtime, localVars)
 	{
 		const score = runtime.globalVars.Score ?? 0;
@@ -36,6 +64,34 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("restart", score)
+	},
+
+	async Addsettings_Event60_Act7(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_PAUSE",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "space-purge",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("pause", score)
+	},
+
+	async Addsettings_Event61_Act7(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESUME",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "space-purge",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("resume", score)
 	},
 
 	async Gamesettings_Event60_Act4(runtime, localVars)
@@ -87,62 +143,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("end", score, bestScore, "COMPLETED")
-	},
-
-	async Addsettings_Event52_Act3(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_HOME",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "space-purge",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("home", score)
-	},
-
-	async Addsettings_Event54_Act3(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_HOME",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "space-purge",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("home", score)
-	},
-
-	async Addsettings_Event60_Act7(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_PAUSE",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "space-purge",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("pause", score)
-	},
-
-	async Addsettings_Event61_Act7(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_RESUME",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "space-purge",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("resume", score)
 	}
 };
 

@@ -72,6 +72,20 @@ const scriptsInEvents = {
 		console.log("restart", score)
 	},
 
+	async Addevent_Event50_Act1(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_HOME",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "tank-defender",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("home", score)
+	},
+
 	async Addevent_Event53_Act6(runtime, localVars)
 	{
 		const score = runtime.globalVars.Score ?? 0;
@@ -98,20 +112,6 @@ const scriptsInEvents = {
 		console.log("exit", runtime.globalVars.UserId)
 	},
 
-	async Addevent_Event50_Act1(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_HOME",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "tank-defender",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("home", score)
-	},
-
 	async Addevent_Event99_Act1(runtime, localVars)
 	{
 		const score = runtime.globalVars.Score ?? 0;
@@ -126,11 +126,6 @@ const scriptsInEvents = {
 		console.log("pause", score)
 	},
 
-	async Addevent_Event117(runtime, localVars)
-	{
-		
-	},
-
 	async Addevent_Event101_Act1(runtime, localVars)
 	{
 		const score = runtime.globalVars.Score ?? 0;
@@ -143,6 +138,11 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("resume", score)
+	},
+
+	async Addevent_Event117(runtime, localVars)
+	{
+		
 	}
 };
 

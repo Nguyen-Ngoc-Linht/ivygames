@@ -19,20 +19,6 @@ const scriptsInEvents = {
 		console.log("end", score, bestScore, "COMPLETED")
 	},
 
-	async Gameoverevent_Event5_Act1(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_RESTART",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "stick-monkey",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("restart", score)
-	},
-
 	async Menuevent_Event5_Act6(runtime, localVars)
 	{
 		window.parent.postMessage({
@@ -69,6 +55,20 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("home", score)
+	},
+
+	async Gameoverevent_Event5_Act1(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESTART",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "stick-monkey",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("restart", score)
 	}
 };
 

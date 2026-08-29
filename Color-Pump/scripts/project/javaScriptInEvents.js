@@ -2,6 +2,36 @@
 
 const scriptsInEvents = {
 
+	async Events_home_Event8_Act2(runtime, localVars)
+	{
+		const level = runtime.globalVars.game_level_now ?? runtime.globalVars.GameLevelNow ?? 0;
+		const score = runtime.globalVars.game_level_now ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "color-pump",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId, score)
+	},
+
+	async Events_home_Event27_Act2(runtime, localVars)
+	{
+		const level = runtime.globalVars.game_level_now ?? runtime.globalVars.GameLevelNow ?? 0;
+		const score = runtime.globalVars.game_level_now ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "color-pump",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId, score)
+	},
+
 	async Events_home_Event30_Act2(runtime, localVars)
 	{
 		window.parent.postMessage({
@@ -126,36 +156,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("end", score, bestScore, "COMPLETED")
-	},
-
-	async Events_home_Event27_Act2(runtime, localVars)
-	{
-		const level = runtime.globalVars.game_level_now ?? runtime.globalVars.GameLevelNow ?? 0;
-		const score = runtime.globalVars.game_level_now ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "color-pump",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId, score)
-	},
-
-	async Events_home_Event8_Act2(runtime, localVars)
-	{
-		const level = runtime.globalVars.game_level_now ?? runtime.globalVars.GameLevelNow ?? 0;
-		const score = runtime.globalVars.game_level_now ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "color-pump",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId, score)
 	}
 };
 

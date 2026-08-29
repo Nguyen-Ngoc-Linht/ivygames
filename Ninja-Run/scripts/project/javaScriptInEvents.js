@@ -2,6 +2,40 @@
 
 const scriptsInEvents = {
 
+	async Gameset_Event3_Act23(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = score;
+		window.parent.postMessage({
+		    type: "GAME_END",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "ninja-run",
+		    score: score,
+		    bestScore: bestScore,
+		    status: "COMPLETED",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("end", score, bestScore, "COMPLETED")
+	},
+
+	async Gameset_Event4_Act4(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = score;
+		window.parent.postMessage({
+		    type: "GAME_END",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "ninja-run",
+		    score: score,
+		    bestScore: bestScore,
+		    status: "COMPLETED",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("end", score, bestScore, "COMPLETED")
+	},
+
 	async Addset_Event22_Act3(runtime, localVars)
 	{
 		window.parent.postMessage({
@@ -28,50 +62,6 @@ const scriptsInEvents = {
 		console.log("restart", score)
 	},
 
-	async Loadingset_Event1_Act10(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_STARTED",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "ninja-run",
-		    timestamp: Date.now()
-		}, "*");
-	},
-
-	async Gameset_Event4_Act4(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		const bestScore = score;
-		window.parent.postMessage({
-		    type: "GAME_END",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "ninja-run",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("end", score, bestScore, "COMPLETED")
-	},
-
-	async Gameset_Event3_Act23(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		const bestScore = score;
-		window.parent.postMessage({
-		    type: "GAME_END",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "ninja-run",
-		    score: score,
-		    bestScore: bestScore,
-		    status: "COMPLETED",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("end", score, bestScore, "COMPLETED")
-	},
-
 	async Addset_Event25_Act3(runtime, localVars)
 	{
 		window.parent.postMessage({
@@ -96,6 +86,16 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("resume", runtime.globalVars.UserId)
+	},
+
+	async Loadingset_Event1_Act10(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_STARTED",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "ninja-run",
+		    timestamp: Date.now()
+		}, "*");
 	}
 };
 

@@ -2,33 +2,6 @@
 
 const scriptsInEvents = {
 
-	async Game_events_Event1_Act8(runtime, localVars)
-	{
-		const params = new URLSearchParams(window.location.search);
-		
-		runtime.globalVars.UserId = Number(params.get("userId")) || 0;
-		runtime.globalVars.BestScore = Number(params.get("bestScore") || 0);
-	},
-
-	async Game_events_Event69_Act3(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
-		
-		window.parent.postMessage({
-		  type: "GAME_END",
-		  userId: runtime.globalVars.UserId,
-		  gameId: "candy-match-3",
-		  score: score,
-		  bestScore: bestScore,
-		  status: "COMPLETED",
-		  duration: 30 - runtime.globalVars.TimeGame,
-		  timestamp: Date.now()
-		}, "*");
-		
-		console.log("end", score, bestScore, "COMPLETED")
-	},
-
 	async Global_events_Event12_Act2(runtime, localVars)
 	{
 		window.parent.postMessage({
@@ -79,6 +52,33 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("pause", runtime.globalVars.UserId)
+	},
+
+	async Game_events_Event1_Act8(runtime, localVars)
+	{
+		const params = new URLSearchParams(window.location.search);
+		
+		runtime.globalVars.UserId = Number(params.get("userId")) || 0;
+		runtime.globalVars.BestScore = Number(params.get("bestScore") || 0);
+	},
+
+	async Game_events_Event69_Act3(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		const bestScore = Math.max(runtime.globalVars.BestScore ?? 0, score);
+		
+		window.parent.postMessage({
+		  type: "GAME_END",
+		  userId: runtime.globalVars.UserId,
+		  gameId: "candy-match-3",
+		  score: score,
+		  bestScore: bestScore,
+		  status: "COMPLETED",
+		  duration: 30 - runtime.globalVars.TimeGame,
+		  timestamp: Date.now()
+		}, "*");
+		
+		console.log("end", score, bestScore, "COMPLETED")
 	}
 };
 

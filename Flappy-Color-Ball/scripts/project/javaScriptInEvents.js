@@ -2,6 +2,18 @@
 
 const scriptsInEvents = {
 
+	async Start_sht_Event6_Act2(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "flappy-color-ball",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId)
+	},
+
 	async Game_sht_Event1_Act6(runtime, localVars)
 	{
 		const params = new URLSearchParams(window.location.search);
@@ -27,18 +39,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("end", score, bestScore, "COMPLETED")
-	},
-
-	async Start_sht_Event6_Act2(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "flappy-color-ball",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId)
 	},
 
 	async Gui_Event3_Act2(runtime, localVars)

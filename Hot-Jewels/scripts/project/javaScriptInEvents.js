@@ -2,6 +2,20 @@
 
 const scriptsInEvents = {
 
+	async Global_events_Event4_Act3(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_HOME",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "hot-jewels",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("home", score)
+	},
+
 	async Game_events_Event1_Act12(runtime, localVars)
 	{
 		const params = new URLSearchParams(window.location.search);
@@ -26,20 +40,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("end", score, bestScore, "COMPLETED")
-	},
-
-	async Global_events_Event4_Act3(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_HOME",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "hot-jewels",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("home", score)
 	},
 
 	async Main_events_Event2_Act3(runtime, localVars)

@@ -2,6 +2,16 @@
 
 const scriptsInEvents = {
 
+	async Loading_events_Event3_Act3(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_STARTED",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "zombie-uprising",
+		    timestamp: Date.now()
+		}, "*");
+	},
+
 	async Game_events_Event3_Act3(runtime, localVars)
 	{
 		const score = runtime.globalVars.Score ?? 0;
@@ -17,16 +27,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("end", score, bestScore, "COMPLETED")
-	},
-
-	async Loading_events_Event3_Act3(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_STARTED",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "zombie-uprising",
-		    timestamp: Date.now()
-		}, "*");
 	},
 
 	async Main_events_Event1_Act3(runtime, localVars)

@@ -16,18 +16,6 @@ const scriptsInEvents = {
 		console.log("home", score)
 	},
 
-	async Menu_event_Event7_Act1(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_EXIT",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "stack-jump",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("exit", runtime.globalVars.UserId)
-	},
-
 	async Levels_event_Event7_Act6(runtime, localVars)
 	{
 		window.parent.postMessage({
@@ -40,18 +28,16 @@ const scriptsInEvents = {
 		console.log("start", runtime.globalVars.UserId)
 	},
 
-	async Game_over_event_Event5_Act6(runtime, localVars)
+	async Menu_event_Event7_Act1(runtime, localVars)
 	{
-		const score = runtime.globalVars.Score ?? 0;
 		window.parent.postMessage({
-		    type: "GAME_RESTART",
+		    type: "GAME_EXIT",
 		    userId: runtime.globalVars.UserId,
 		    gameId: "stack-jump",
-		    score: score,
 		    timestamp: Date.now()
 		}, "*");
 		
-		console.log("restart", score)
+		console.log("exit", runtime.globalVars.UserId)
 	},
 
 	async Game_over_event_Event3_Act10(runtime, localVars)
@@ -69,6 +55,20 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("end", score, bestScore, "COMPLETED")
+	},
+
+	async Game_over_event_Event5_Act6(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESTART",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "stack-jump",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("restart", score)
 	}
 };
 

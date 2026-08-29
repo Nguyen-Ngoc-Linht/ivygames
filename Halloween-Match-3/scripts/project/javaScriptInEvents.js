@@ -2,6 +2,59 @@
 
 const scriptsInEvents = {
 
+	async Main_events_Event9_Act4(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "halloween-match-3",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId)
+	},
+
+	async Main_events_Event10_Act4(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_HOME",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "halloween-match-3",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("home", score)
+	},
+
+	async Main_events_Event11_Act4(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESTART",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "halloween-match-3",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("restart", score)
+	},
+
+	async Main_events_Event17_Act3(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_EXIT",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "halloween-match-3",
+		    score: runtime.globalVars.Score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("exit", runtime.globalVars.UserId)
+	},
+
 	async Game_events_Event2_Act7(runtime, localVars)
 	{
 		const params = new URLSearchParams(window.location.search);
@@ -82,59 +135,6 @@ const scriptsInEvents = {
 		}, "*");
 		
 		console.log("end", score, bestScore, "COMPLETED")
-	},
-
-	async Main_events_Event9_Act4(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "halloween-match-3",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId)
-	},
-
-	async Main_events_Event10_Act4(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_HOME",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "halloween-match-3",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("home", score)
-	},
-
-	async Main_events_Event11_Act4(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_RESTART",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "halloween-match-3",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("restart", score)
-	},
-
-	async Main_events_Event17_Act3(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_EXIT",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "halloween-match-3",
-		    score: runtime.globalVars.Score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("exit", runtime.globalVars.UserId)
 	}
 };
 

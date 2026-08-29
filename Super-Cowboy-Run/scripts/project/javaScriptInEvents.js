@@ -2,56 +2,6 @@
 
 const scriptsInEvents = {
 
-	async Loading_events_Event2_Act24(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_STARTED",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "super-cowboy-run",
-		    timestamp: Date.now()
-		}, "*");
-	},
-
-	async Global_events_Event40_Act2(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "super-cowboy-run",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId)
-	},
-
-	async Global_events_Event41_Act2(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_HOME",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "super-cowboy-run",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("home", score)
-	},
-
-	async Global_events_Event42_Act2(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_RESTART",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "super-cowboy-run",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("restart", score)
-	},
-
 	async Game_events_Event133_Act27(runtime, localVars)
 	{
 		const score = runtime.globalVars.Score ?? 0;
@@ -96,6 +46,56 @@ const scriptsInEvents = {
 		
 		console.log("resume", score)
 		}
+	},
+
+	async Global_events_Event40_Act2(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "super-cowboy-run",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId)
+	},
+
+	async Global_events_Event41_Act2(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_HOME",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "super-cowboy-run",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("home", score)
+	},
+
+	async Global_events_Event42_Act2(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESTART",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "super-cowboy-run",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("restart", score)
+	},
+
+	async Loading_events_Event2_Act24(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_STARTED",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "super-cowboy-run",
+		    timestamp: Date.now()
+		}, "*");
 	}
 };
 

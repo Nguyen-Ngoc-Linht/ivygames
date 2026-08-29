@@ -2,12 +2,16 @@
 
 const scriptsInEvents = {
 
-	async Game_events_Event1_Act6(runtime, localVars)
+	async Global_events_Event2_Act9(runtime, localVars)
 	{
-		const params = new URLSearchParams(window.location.search);
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "stick-soldier",
+		    timestamp: Date.now()
+		}, "*");
 		
-		runtime.globalVars.UserId = Number(params.get("userId")) || 0;
-		runtime.globalVars.HighScore = Number(params.get("bestScore") || 0);
+		console.log("start", runtime.globalVars.UserId)
 	},
 
 	async Global_events_Event32_Act1(runtime, localVars)
@@ -45,16 +49,12 @@ const scriptsInEvents = {
 		console.log("best_score", bestScore, score)
 	},
 
-	async Global_events_Event2_Act9(runtime, localVars)
+	async Game_events_Event1_Act6(runtime, localVars)
 	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "stick-soldier",
-		    timestamp: Date.now()
-		}, "*");
+		const params = new URLSearchParams(window.location.search);
 		
-		console.log("start", runtime.globalVars.UserId)
+		runtime.globalVars.UserId = Number(params.get("userId")) || 0;
+		runtime.globalVars.HighScore = Number(params.get("bestScore") || 0);
 	}
 };
 

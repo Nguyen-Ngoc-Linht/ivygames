@@ -2,6 +2,32 @@
 
 const scriptsInEvents = {
 
+	async Addsettings_Event6_Act2(runtime, localVars)
+	{
+		window.parent.postMessage({
+		    type: "GAME_START",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "great-air-battles",
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("start", runtime.globalVars.UserId)
+	},
+
+	async Addsettings_Event7_Act2(runtime, localVars)
+	{
+		const score = runtime.globalVars.Score ?? 0;
+		window.parent.postMessage({
+		    type: "GAME_RESTART",
+		    userId: runtime.globalVars.UserId,
+		    gameId: "great-air-battles",
+		    score: score,
+		    timestamp: Date.now()
+		}, "*");
+		
+		console.log("restart", score)
+	},
+
 	async Gamesettings_Event1_Act17(runtime, localVars)
 	{
 		const params = new URLSearchParams(window.location.search);
@@ -57,32 +83,6 @@ const scriptsInEvents = {
 		console.log("resume", runtime.globalVars.UserId)
 		}
 		
-	},
-
-	async Addsettings_Event6_Act2(runtime, localVars)
-	{
-		window.parent.postMessage({
-		    type: "GAME_START",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "great-air-battles",
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("start", runtime.globalVars.UserId)
-	},
-
-	async Addsettings_Event7_Act2(runtime, localVars)
-	{
-		const score = runtime.globalVars.Score ?? 0;
-		window.parent.postMessage({
-		    type: "GAME_RESTART",
-		    userId: runtime.globalVars.UserId,
-		    gameId: "great-air-battles",
-		    score: score,
-		    timestamp: Date.now()
-		}, "*");
-		
-		console.log("restart", score)
 	}
 };
 
