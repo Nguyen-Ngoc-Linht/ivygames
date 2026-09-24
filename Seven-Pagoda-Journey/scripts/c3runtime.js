@@ -1663,20 +1663,11 @@ self.C3_ExpressionFuncs = [
 			const f1 = p._GetNode(1).GetBoundMethod();
 			return () => (n0.ExpObject() - (1000 * f1()));
 		},
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			const v1 = p._GetNode(1).GetVar();
-			return () => and(and(v0.GetValue(), "/"), v1.GetValue());
-		},
 		() => "PLAYER_GOOD_WALK",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const v1 = p._GetNode(1).GetVar();
 			return () => f0((v1.GetValue() + 1), 4);
-		},
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => (1 + v0.GetValue());
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -1685,8 +1676,7 @@ self.C3_ExpressionFuncs = [
 		p => {
 			const n0 = p._GetNode(0);
 			const n1 = p._GetNode(1);
-			const n2 = p._GetNode(2);
-			return () => ((n0.ExpObject() + n1.ExpObject()) - (n2.ExpObject() * 0.5));
+			return () => (n0.ExpObject() + (n1.ExpObject() * 0.7));
 		},
 		() => "Campaign_Progression",
 		() => "LEVEL_COMPLETE",
@@ -1754,7 +1744,6 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => (and("Loading-", Math.round((f0() * 100))) + "%");
 		},
-		() => "Music",
 		() => "Loading-100%",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -1768,10 +1757,6 @@ self.C3_ExpressionFuncs = [
 		() => "ShowLayer_Settings",
 		() => "HideLayer_Settings",
 		() => "Gui",
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() * 10);
-		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => and("Background_", v0.GetValue());
@@ -1883,6 +1868,7 @@ self.C3_ExpressionFuncs = [
 			return () => (f0() + "Music");
 		},
 		() => -100,
+		() => "Music",
 		() => "ButtonMenu_Settings",
 		() => 128,
 		() => "ButtonFullscreen_Settings",
@@ -1941,15 +1927,6 @@ self.C3_ExpressionFuncs = [
 		() => "ButtonExit_Settings",
 		() => 0.3,
 		() => "ButtonCharacter_Settings",
-		() => "Journey_Map",
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => (and("TEMPLE ", v0.GetValue()) + "/7");
-		},
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => (and("TEMPLE ", f0()) + "/7");
-		},
 		() => "GameOver_Settings",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -1987,7 +1964,8 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			const v1 = p._GetNode(1).GetVar();
 			return () => ((v0.GetValue() * 2) + v1.GetValue());
-		}
+		},
+		() => 20
 ];
 
 

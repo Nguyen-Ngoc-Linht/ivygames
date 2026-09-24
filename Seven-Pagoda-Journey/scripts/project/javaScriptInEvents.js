@@ -56,7 +56,21 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Globalevent_Event2_Act12(runtime, localVars)
+	async Gameevent_Event54_Act1(runtime, localVars)
+	{
+		if (window.__snapGameWapOrigin) {
+		  window.parent.postMessage(
+		    {
+		      type: "SNAPGAME_EVENT_HEARTBEAT"
+		    },
+		    window.__snapGameWapOrigin
+		  );
+		
+		  console.log("[GAME] HEARTBEAT sent");
+		}
+	},
+
+	async Globalevent_Event2_Act11(runtime, localVars)
 	{
 		const ALLOWED_WAP_ORIGINS = [
 		  "http://game.tv360.metfone.com.kh",
@@ -139,17 +153,17 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Gameevent_Event54_Act1(runtime, localVars)
+	async Characterselectevent_Event13_Act4(runtime, localVars)
 	{
 		if (window.__snapGameWapOrigin) {
 		  window.parent.postMessage(
 		    {
-		      type: "SNAPGAME_EVENT_HEARTBEAT"
+		      type: "SNAPGAME_EVENT_START"
 		    },
 		    window.__snapGameWapOrigin
 		  );
 		
-		  console.log("[GAME] HEARTBEAT sent");
+		  console.log("[GAME] START sent");
 		}
 	}
 };
