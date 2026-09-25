@@ -105,8 +105,8 @@ const scriptsInEvents = {
 		        runtime.globalVars.HostFinished = 0;
 		        runtime.globalVars.HostFinishConfirmed = 0;
 		        runtime.globalVars.HostErrorCode = "";
-		        runtime.globalVars.SelectedCharacter = message?.selectedCharacter ?? 0
-		        runtime.globalVars.CharacterName = message?.characterName ?? 'Male01'
+		        runtime.globalVars.SelectedCharacter = message?.selectedCharacter ?? 0;
+		        runtime.globalVars.CharacterName = message?.characterName ?? 'Male01';
 		        console.log("[GAME] khong loi");
 		        break;
 		
