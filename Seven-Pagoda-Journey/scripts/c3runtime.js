@@ -1508,6 +1508,10 @@ self.C3_ExpressionFuncs = [
 			return () => (v0.GetValue() + "_Idle");
 		},
 		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() - 1);
+		},
+		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => (f0() / 2);
 		},
@@ -1692,10 +1696,6 @@ self.C3_ExpressionFuncs = [
 			return () => (f0() + "MaxUnlockedLevel");
 		},
 		() => 7,
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 1);
-		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => Math.floor(f0(7));

@@ -140,10 +140,25 @@ const scriptsInEvents = {
 		          7,
 		          Math.max(1, Number(message.selectedLevel) || 1)
 		        );
-		        runtime.globalVars.SelectedCharacter =
-		          Number(message.selectedCharacter) || 0;
-		        runtime.globalVars.CharacterName =
-		          String(message.characterName || "Male01");
+		        const selectedCharacter = Number(message.selectedCharacter);
+		
+		const safeCharacter =
+		  Number.isFinite(selectedCharacter)
+		    ? Math.min(3, Math.max(0, selectedCharacter))
+		    : 0;
+		
+		runtime.globalVars.SelectedCharacter = safeCharacter;
+		
+		if (safeCharacter < 2) {
+		  runtime.globalVars.SelectedGender = 0;
+		  runtime.globalVars.PreviewIndex = safeCharacter;
+		} else {
+		  runtime.globalVars.SelectedGender = 1;
+		  runtime.globalVars.PreviewIndex = safeCharacter - 2;
+		}
+		
+		runtime.globalVars.CharacterName =
+		  String(message.characterName || "Male01");
 		
 		        // Nếu người chơi đã bấm Play trước INIT, gửi START ngay lúc này.
 		        sendStartWhenReady();
@@ -251,11 +266,11 @@ const scriptsInEvents = {
 
 	async Gameevent_Event21_Act3(runtime, localVars)
 	{
-		if (window.__snapGameWapOrigin) {
-		  console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized);
-		}
+		// if (window.__snapGameWapOrigin) {
+		//   console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized);
+		// }
 		
-		console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized, window.__snapGameWapOrigin);
+		// console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized, window.__snapGameWapOrigin);
 	}
 };
 
