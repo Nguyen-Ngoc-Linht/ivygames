@@ -197,6 +197,7 @@ self.C3_JsPropNameTable = [
 	{Candle: 0},
 	{BayBen: 0},
 	{Sprite: 0},
+	{Sprite2: 0},
 	{ItemScorePopup: 0},
 	{Buttons: 0},
 	{Texts: 0},
@@ -291,6 +292,7 @@ self.InstanceType = {
 	Candle: class extends self.ISpriteInstance {},
 	BayBen: class extends self.ISpriteInstance {},
 	Sprite: class extends self.ISpriteInstance {},
+	Sprite2: class extends self.ISpriteInstance {},
 	ItemScorePopup: class extends self.ITextInstance {},
 	Buttons: class extends self.ISpriteInstance {},
 	Texts: class extends self.ISpriteInstance {}

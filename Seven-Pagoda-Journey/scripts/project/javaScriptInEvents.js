@@ -78,10 +78,39 @@ const scriptsInEvents = {
 		  "http://localhost:4001"
 		];
 		
+		const postToWap = (message) => {
+		  if (!window.__snapGameWapOrigin) return;
+		
+		  window.parent.postMessage(message, window.__snapGameWapOrigin);
+		};
+		
+		const sendStartWhenReady = () => {
+		  if (
+		    !window.__snapGameWapOrigin ||
+		    runtime.globalVars.HostInitialized !== 1 ||
+		    runtime.globalVars.HostStartRequested !== 1 ||
+		    runtime.globalVars.HostStarted === 1 ||
+		    runtime.globalVars.HostFinished === 1
+		  ) {
+		    return;
+		  }
+		
+		  // 2 = đã gửi START, tránh gửi trùng.
+		  runtime.globalVars.HostStartRequested = 2;
+		  postToWap({ type: "SNAPGAME_EVENT_START" });
+		  console.log("[GAME] → WAP START");
+		};
+		
 		if (!window.__snapGameMessageListenerAdded) {
 		  window.__snapGameMessageListenerAdded = true;
-		
 		  window.__snapGameWapOrigin = null;
+		
+		  runtime.globalVars.HostInitialized = 0;
+		  runtime.globalVars.HostStartRequested = 0;
+		  runtime.globalVars.HostStarted = 0;
+		  runtime.globalVars.HostFinished = 0;
+		  runtime.globalVars.HostFinishConfirmed = 0;
+		  runtime.globalVars.HostErrorCode = "";
 		
 		  window.addEventListener("message", (event) => {
 		    if (
@@ -92,28 +121,40 @@ const scriptsInEvents = {
 		    }
 		
 		    const message = event.data || {};
-		
-		    console.log("[GAME] message from WAP:", message);
+		    console.log("[GAME] ← WAP", message);
 		
 		    switch (message.type) {
-		      case "SNAPGAME_EVENT_INIT":
-		        window.__snapGameWapOrigin = event.origin;
+		      case "SNAPGAME_EVENT_INIT": {
+		        const startWasRequested =
+		          runtime.globalVars.HostStartRequested === 1;
 		
+		        window.__snapGameWapOrigin = event.origin;
 		        runtime.globalVars.HostInitialized = 1;
-		        runtime.globalVars.HostStartRequested = 0;
+		        runtime.globalVars.HostStartRequested = startWasRequested ? 1 : 0;
 		        runtime.globalVars.HostStarted = 0;
 		        runtime.globalVars.HostFinished = 0;
 		        runtime.globalVars.HostFinishConfirmed = 0;
 		        runtime.globalVars.HostErrorCode = "";
-		        runtime.globalVars.SelectedCharacter = message?.selectedCharacter ?? 0;
-		        runtime.globalVars.CharacterName = message?.characterName ?? 'Male01';
-		        console.log("[GAME] khong loi");
+		
+		        runtime.globalVars.CurrentLevel = Math.min(
+		          7,
+		          Math.max(1, Number(message.selectedLevel) || 1)
+		        );
+		        runtime.globalVars.SelectedCharacter =
+		          Number(message.selectedCharacter) || 0;
+		        runtime.globalVars.CharacterName =
+		          String(message.characterName || "Male01");
+		
+		        // Nếu người chơi đã bấm Play trước INIT, gửi START ngay lúc này.
+		        sendStartWhenReady();
+		
+		        console.log("[GAME] INIT received");
 		        break;
+		      }
 		
 		      case "SNAPGAME_EVENT_STARTED":
 		        runtime.globalVars.HostStarted = 1;
 		        runtime.globalVars.HostErrorCode = "";
-		
 		        console.log("[GAME] STARTED received");
 		        break;
 		
@@ -121,24 +162,26 @@ const scriptsInEvents = {
 		        runtime.globalVars.HostFinishConfirmed = 1;
 		        runtime.globalVars.HostFinished = 1;
 		        runtime.globalVars.HostStarted = 0;
-		
 		        console.log("[GAME] FINISHED received");
 		        break;
 		
 		      case "SNAPGAME_EVENT_ERROR":
 		        runtime.globalVars.HostFinished = 1;
 		        runtime.globalVars.HostStarted = 0;
-		
 		        runtime.globalVars.HostErrorCode =
 		          String(message.code || "RUN_FAILED");
-		
-		        console.error(
-		          "[GAME] ERROR:",
-		          runtime.globalVars.HostErrorCode
-		        );
+		        console.error("[GAME] ERROR", runtime.globalVars.HostErrorCode);
 		        break;
 		    }
 		  });
+		
+		  // WAP nhận READY rồi mới gửi INIT — không còn phụ thuộc timeout.
+		  window.parent.postMessage(
+		    { type: "SNAPGAME_EVENT_READY" },
+		    "*"
+		  );
+		
+		  console.log("[GAME] READY sent");
 		}
 	},
 
