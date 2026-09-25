@@ -105,6 +105,8 @@ const scriptsInEvents = {
 		        runtime.globalVars.HostFinished = 0;
 		        runtime.globalVars.HostFinishConfirmed = 0;
 		        runtime.globalVars.HostErrorCode = "";
+		        runtime.globalVars.SelectedCharacter = message?.selectedCharacter
+		        runtime.globalVars.CharacterName = message?.characterName
 		        break;
 		
 		      case "SNAPGAME_EVENT_STARTED":
@@ -165,6 +167,42 @@ const scriptsInEvents = {
 		
 		  console.log("[GAME] START sent");
 		}
+	},
+
+	async Characterselectevent_Event9_Act3(runtime, localVars)
+	{
+		window.parent.postMessage({
+		  type: "SNAPGAME_EVENT_CHARACTER_SELECTED",
+		  selectedCharacter: 0,
+		  characterName: "Male01"
+		}, "*");
+	},
+
+	async Characterselectevent_Event10_Act3(runtime, localVars)
+	{
+		window.parent.postMessage({
+		  type: "SNAPGAME_EVENT_CHARACTER_SELECTED",
+		  selectedCharacter: 1,
+		  characterName: "Male02"
+		}, "*");
+	},
+
+	async Characterselectevent_Event11_Act3(runtime, localVars)
+	{
+		window.parent.postMessage({
+		  type: "SNAPGAME_EVENT_CHARACTER_SELECTED",
+		  selectedCharacter: 2,
+		  characterName: "Female01"
+		}, "*");
+	},
+
+	async Characterselectevent_Event12_Act3(runtime, localVars)
+	{
+		window.parent.postMessage({
+		  type: "SNAPGAME_EVENT_CHARACTER_SELECTED",
+		  selectedCharacter: 3,
+		  characterName: "Female02"
+		}, "*");
 	}
 };
 
