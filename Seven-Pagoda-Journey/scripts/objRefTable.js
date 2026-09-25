@@ -48,6 +48,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.OnTouchStart,
 		C3.JavaScriptInEvents.Gameevent_Event20_Act2,
 		C3.Plugins.Touch.Cnds.OnTouchEnd,
+		C3.JavaScriptInEvents.Gameevent_Event21_Act3,
 		C3.Plugins.Sprite.Cnds.IsBetweenAngles,
 		C3.Plugins.Sprite.Exps.Angle,
 		C3.Plugins.Audio.Cnds.IsTagPlaying,

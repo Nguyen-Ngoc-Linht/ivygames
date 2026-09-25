@@ -204,6 +204,13 @@ const scriptsInEvents = {
 		
 		  console.log("[GAME] START sent");
 		}
+	},
+
+	async Gameevent_Event21_Act3(runtime, localVars)
+	{
+		if (window.__snapGameWapOrigin) {
+		  console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized);
+		}
 	}
 };
 
