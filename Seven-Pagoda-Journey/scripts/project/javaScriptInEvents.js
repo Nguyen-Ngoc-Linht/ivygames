@@ -211,6 +211,8 @@ const scriptsInEvents = {
 		if (window.__snapGameWapOrigin) {
 		  console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized);
 		}
+		
+		console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized, window.__snapGameWapOrigin);
 	}
 };
 
