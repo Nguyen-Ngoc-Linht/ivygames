@@ -46,6 +46,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.IsInTouch,
 		C3.Plugins.Sprite.Exps.Height,
 		C3.Plugins.Touch.Cnds.OnTouchEnd,
+		C3.JavaScriptInEvents.Gameevent_Event21_Act2,
 		C3.Plugins.Sprite.Cnds.IsBetweenAngles,
 		C3.Plugins.Sprite.Exps.Angle,
 		C3.Plugins.Audio.Cnds.IsTagPlaying,
@@ -63,7 +64,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.LocalStorage.Acts.SetItem,
 		C3.Plugins.System.Exps.projectname,
 		C3.Plugins.System.Acts.Wait,
-		C3.JavaScriptInEvents.Gameevent_Event41_Act2,
+		C3.JavaScriptInEvents.Gameevent_Event42_Act2,
 		C3.Plugins.System.Exps.max,
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
@@ -74,7 +75,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Exps.Y,
 		C3.Plugins.Sprite.Acts.SetCollisions,
 		C3.Plugins.System.Cnds.Every,
-		C3.JavaScriptInEvents.Gameevent_Event54_Act1,
+		C3.JavaScriptInEvents.Gameevent_Event55_Act1,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Audio.Acts.Preload,
 		C3.Plugins.System.Cnds.Compare,
@@ -127,8 +128,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.JavaScriptInEvents.Characterselectevent_Event9_Act3,
 		C3.JavaScriptInEvents.Characterselectevent_Event10_Act3,
 		C3.JavaScriptInEvents.Characterselectevent_Event11_Act3,
-		C3.JavaScriptInEvents.Characterselectevent_Event12_Act3,
-		C3.JavaScriptInEvents.Characterselectevent_Event13_Act4
+		C3.JavaScriptInEvents.Characterselectevent_Event12_Act3
 	];
 };
 self.C3_JsPropNameTable = [

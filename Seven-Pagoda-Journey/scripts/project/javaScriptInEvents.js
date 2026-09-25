@@ -2,7 +2,7 @@
 
 const scriptsInEvents = {
 
-	async Gameevent_Event41_Act2(runtime, localVars)
+	async Gameevent_Event42_Act2(runtime, localVars)
 	{
 		if (
 		  window.__snapGameWapOrigin &&
@@ -56,7 +56,7 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Gameevent_Event54_Act1(runtime, localVars)
+	async Gameevent_Event55_Act1(runtime, localVars)
 	{
 		if (window.__snapGameWapOrigin) {
 		  window.parent.postMessage(
@@ -105,8 +105,8 @@ const scriptsInEvents = {
 		        runtime.globalVars.HostFinished = 0;
 		        runtime.globalVars.HostFinishConfirmed = 0;
 		        runtime.globalVars.HostErrorCode = "";
-		        runtime.globalVars.SelectedCharacter = message?.selectedCharacter
-		        runtime.globalVars.CharacterName = message?.characterName
+		        runtime.globalVars.SelectedCharacter = message?.selectedCharacter ?? 0
+		        runtime.globalVars.CharacterName = message?.characterName ?? 'Male01'
 		        break;
 		
 		      case "SNAPGAME_EVENT_STARTED":
@@ -155,20 +155,6 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Characterselectevent_Event13_Act4(runtime, localVars)
-	{
-		if (window.__snapGameWapOrigin) {
-		  window.parent.postMessage(
-		    {
-		      type: "SNAPGAME_EVENT_START"
-		    },
-		    window.__snapGameWapOrigin
-		  );
-		
-		  console.log("[GAME] START sent");
-		}
-	},
-
 	async Characterselectevent_Event9_Act3(runtime, localVars)
 	{
 		window.parent.postMessage({
@@ -203,6 +189,20 @@ const scriptsInEvents = {
 		  selectedCharacter: 3,
 		  characterName: "Female02"
 		}, "*");
+	},
+
+	async Gameevent_Event21_Act2(runtime, localVars)
+	{
+		if (window.__snapGameWapOrigin) {
+		  window.parent.postMessage(
+		    {
+		      type: "SNAPGAME_EVENT_START"
+		    },
+		    window.__snapGameWapOrigin
+		  );
+		
+		  console.log("[GAME] START sent");
+		}
 	}
 };
 
