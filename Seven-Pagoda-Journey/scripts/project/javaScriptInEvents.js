@@ -2,6 +2,29 @@
 
 const scriptsInEvents = {
 
+	async Gameevent_Event20_Act2(runtime, localVars)
+	{
+		if (window.__snapGameWapOrigin) {
+		  window.parent.postMessage(
+		    {
+		      type: "SNAPGAME_EVENT_START"
+		    },
+		    window.__snapGameWapOrigin
+		  );
+		
+		  console.log("[GAME] START sent");
+		}
+	},
+
+	async Gameevent_Event21_Act3(runtime, localVars)
+	{
+		// if (window.__snapGameWapOrigin) {
+		//   console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized);
+		// }
+		
+		// console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized, window.__snapGameWapOrigin);
+	},
+
 	async Gameevent_Event42_Act2(runtime, localVars)
 	{
 		if (
@@ -248,29 +271,6 @@ const scriptsInEvents = {
 		  selectedCharacter: 3,
 		  characterName: "Female02"
 		}, "*");
-	},
-
-	async Gameevent_Event20_Act2(runtime, localVars)
-	{
-		if (window.__snapGameWapOrigin) {
-		  window.parent.postMessage(
-		    {
-		      type: "SNAPGAME_EVENT_START"
-		    },
-		    window.__snapGameWapOrigin
-		  );
-		
-		  console.log("[GAME] START sent");
-		}
-	},
-
-	async Gameevent_Event21_Act3(runtime, localVars)
-	{
-		// if (window.__snapGameWapOrigin) {
-		//   console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized);
-		// }
-		
-		// console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized, window.__snapGameWapOrigin);
 	}
 };
 
