@@ -127,10 +127,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.JavaScriptInEvents.Menuevent_Event5_Act6,
 		C3.Plugins.Sprite.Acts.StartAnim,
 		C3.Plugins.Browser.Acts.Close,
-		C3.JavaScriptInEvents.Characterselectevent_Event9_Act3,
-		C3.JavaScriptInEvents.Characterselectevent_Event10_Act3,
 		C3.JavaScriptInEvents.Characterselectevent_Event11_Act3,
-		C3.JavaScriptInEvents.Characterselectevent_Event12_Act3
+		C3.JavaScriptInEvents.Characterselectevent_Event12_Act3,
+		C3.JavaScriptInEvents.Characterselectevent_Event13_Act3,
+		C3.JavaScriptInEvents.Characterselectevent_Event14_Act3
 	];
 };
 self.C3_JsPropNameTable = [

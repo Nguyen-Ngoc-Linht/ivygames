@@ -237,7 +237,7 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Characterselectevent_Event9_Act3(runtime, localVars)
+	async Characterselectevent_Event11_Act3(runtime, localVars)
 	{
 		window.parent.postMessage({
 		  type: "SNAPGAME_EVENT_CHARACTER_SELECTED",
@@ -246,7 +246,7 @@ const scriptsInEvents = {
 		}, "*");
 	},
 
-	async Characterselectevent_Event10_Act3(runtime, localVars)
+	async Characterselectevent_Event12_Act3(runtime, localVars)
 	{
 		window.parent.postMessage({
 		  type: "SNAPGAME_EVENT_CHARACTER_SELECTED",
@@ -255,7 +255,7 @@ const scriptsInEvents = {
 		}, "*");
 	},
 
-	async Characterselectevent_Event11_Act3(runtime, localVars)
+	async Characterselectevent_Event13_Act3(runtime, localVars)
 	{
 		window.parent.postMessage({
 		  type: "SNAPGAME_EVENT_CHARACTER_SELECTED",
@@ -264,7 +264,7 @@ const scriptsInEvents = {
 		}, "*");
 	},
 
-	async Characterselectevent_Event12_Act3(runtime, localVars)
+	async Characterselectevent_Event14_Act3(runtime, localVars)
 	{
 		window.parent.postMessage({
 		  type: "SNAPGAME_EVENT_CHARACTER_SELECTED",
