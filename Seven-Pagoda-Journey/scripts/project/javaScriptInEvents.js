@@ -163,6 +163,11 @@ const scriptsInEvents = {
 		          7,
 		          Math.max(1, Number(message.selectedLevel) || 1)
 		        );
+		
+		        runtime.globalVars.MaxUnlockedLevel = Math.min(
+				          7,
+				          Math.max(0, Number(message.highestMilestone) || 0)
+				        );
 		        const selectedCharacter = Number(message.selectedCharacter);
 		
 		const safeCharacter =

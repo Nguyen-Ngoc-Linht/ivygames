@@ -1694,13 +1694,20 @@ self.C3_ExpressionFuncs = [
 			const f1 = p._GetNode(1).GetBoundMethod();
 			const v2 = p._GetNode(2).GetVar();
 			const v3 = p._GetNode(3).GetVar();
-			return () => f0(7, f1(v2.GetValue(), (v3.GetValue() + 1)));
+			return () => f0(7, f1(v2.GetValue(), v3.GetValue()));
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => (f0() + "MaxUnlockedLevel");
 		},
 		() => 7,
+		() => 0.6,
+		() => 1.08,
+		() => 0.3,
+		() => 0.2,
+		() => 0.8,
+		() => 0.85,
+		() => 0.25,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => Math.floor(f0(7));
@@ -1830,7 +1837,6 @@ self.C3_ExpressionFuncs = [
 			return () => Math.round(f0(0, 3));
 		},
 		() => "Snow",
-		() => 0.2,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const f1 = p._GetNode(1).GetBoundMethod();
@@ -1930,7 +1936,6 @@ self.C3_ExpressionFuncs = [
 		() => "ButtonPlay_Settings",
 		() => 384,
 		() => "ButtonExit_Settings",
-		() => 0.3,
 		() => "ButtonCharacter_Settings",
 		() => "GameOver_Settings",
 		p => {
