@@ -80,7 +80,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Exps.Y,
 		C3.Plugins.Sprite.Acts.SetCollisions,
 		C3.Plugins.System.Cnds.Every,
-		C3.JavaScriptInEvents.Gameevent_Event55_Act1,
+		C3.JavaScriptInEvents.Gameevent_Event56_Act1,
 		C3.Plugins.Audio.Acts.Preload,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.System.Exps.loadingprogress,

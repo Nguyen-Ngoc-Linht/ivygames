@@ -79,7 +79,7 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Gameevent_Event55_Act1(runtime, localVars)
+	async Gameevent_Event56_Act1(runtime, localVars)
 	{
 		if (window.__snapGameWapOrigin) {
 		  window.parent.postMessage(
