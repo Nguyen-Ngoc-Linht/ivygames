@@ -196,7 +196,7 @@ const scriptsInEvents = {
 		
 		        runtime.globalVars.CurrentLevel = Math.min(
 		          7,
-		          Math.max(1, Number(message.selectedLevel) || 1)
+		          Math.max(0, Number(message.selectedLevel) || 0)
 		        );
 		
 		        runtime.globalVars.MaxUnlockedLevel = Math.min(
