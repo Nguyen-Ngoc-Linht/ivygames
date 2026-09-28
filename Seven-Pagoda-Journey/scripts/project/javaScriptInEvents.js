@@ -32,6 +32,8 @@ const scriptsInEvents = {
 		  runtime.globalVars.HostStarted === 1 &&
 		  runtime.globalVars.HostFinished === 0
 		) {
+		  const sequence = (Number(runtime.globalVars.HostEventSequence) || 0) + 1;
+		  runtime.globalVars.HostEventSequence = sequence;
 		  const score = Math.max(
 		    0,
 		    Math.floor(Number(runtime.globalVars.Score) || 0)
@@ -43,6 +45,7 @@ const scriptsInEvents = {
 		  window.parent.postMessage(
 		    {
 		      type: "SNAPGAME_EVENT_FINISH",
+		      sequence,
 		      rawScore: score,
 		      metrics: {
 		        reason: "GAME_OVER",
