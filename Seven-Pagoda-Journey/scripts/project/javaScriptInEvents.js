@@ -56,7 +56,7 @@ const scriptsInEvents = {
 		          score
 		        ),
 		
-		        currentLevel: Number(runtime.globalVars.CurrentLevel) || 1,
+		        currentLevel: Number(runtime.globalVars.CurrentLevel) || 0,
 		        bridgesCrossed: Number(runtime.globalVars.BridgesCrossed) || 0,
 		        perfectCount: Number(runtime.globalVars.PerfectCount) || 0,
 		
@@ -112,7 +112,7 @@ const scriptsInEvents = {
 		          Number(runtime.globalVars.BestScore) || 0,
 		          score
 		        ),
-		        currentLevel: Number(runtime.globalVars.CurrentLevel) || 1,
+		        currentLevel: Number(runtime.globalVars.CurrentLevel) || 0,
 		        bridgesCrossed: Number(runtime.globalVars.BridgesCrossed) || 0,
 		        perfectCount: Number(runtime.globalVars.PerfectCount) || 0,
 		        lotusCollected: Number(runtime.globalVars.LotusCollected) || 0,

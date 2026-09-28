@@ -1509,7 +1509,7 @@ self.C3_ExpressionFuncs = [
 		},
 		p => {
 			const v0 = p._GetNode(0).GetVar();
-			return () => (v0.GetValue() - 1);
+			return () => v0.GetValue();
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -1522,10 +1522,6 @@ self.C3_ExpressionFuncs = [
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => (f0(0) + 210);
-		},
-		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => v0.GetValue();
 		},
 		() => 100,
 		p => {
@@ -1686,7 +1682,7 @@ self.C3_ExpressionFuncs = [
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			const v1 = p._GetNode(1).GetVar();
-			return () => (v0.GetValue() * v1.GetValue());
+			return () => (v0.GetValue() * (v1.GetValue() + 1));
 		},
 		() => "LEVEL_COMPLETE",
 		p => {
@@ -1694,24 +1690,24 @@ self.C3_ExpressionFuncs = [
 			const f1 = p._GetNode(1).GetBoundMethod();
 			const v2 = p._GetNode(2).GetVar();
 			const v3 = p._GetNode(3).GetVar();
-			return () => f0(7, f1(v2.GetValue(), v3.GetValue()));
+			return () => f0(7, f1(v2.GetValue(), (v3.GetValue() + 1)));
 		},
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => (f0() + "MaxUnlockedLevel");
 		},
 		() => 7,
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (v0.GetValue() - 1);
+		},
 		() => 0.6,
 		() => 1.08,
 		() => 0.3,
 		() => 0.2,
-		() => 0.8,
 		() => 0.85,
 		() => 0.25,
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			return () => Math.floor(f0(7));
-		},
+		() => 8,
 		() => "Items_Collect",
 		p => {
 			const n0 = p._GetNode(0);
