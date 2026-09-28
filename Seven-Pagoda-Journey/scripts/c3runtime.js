@@ -1707,7 +1707,6 @@ self.C3_ExpressionFuncs = [
 		() => 0.2,
 		() => 0.85,
 		() => 0.25,
-		() => 8,
 		() => "Items_Collect",
 		p => {
 			const n0 = p._GetNode(0);
