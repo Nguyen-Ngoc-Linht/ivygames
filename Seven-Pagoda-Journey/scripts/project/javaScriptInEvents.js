@@ -82,14 +82,46 @@ const scriptsInEvents = {
 	async Gameevent_Event56_Act1(runtime, localVars)
 	{
 		if (window.__snapGameWapOrigin) {
+		  // window.parent.postMessage(
+		  //   {
+		  //     type: "SNAPGAME_EVENT_HEARTBEAT"
+		  //   },
+		  //   window.__snapGameWapOrigin
+		  // );
+		
+		  // console.log("[GAME] HEARTBEAT sent");
+		  const score = Math.max(
+		    0,
+		    Math.floor(Number(runtime.globalVars.Score) || 0)
+		  );
+		
+		  const sequence = (Number(runtime.globalVars.HostEventSequence) || 0) + 1;
+		  runtime.globalVars.HostEventSequence = sequence;
+		
 		  window.parent.postMessage(
 		    {
-		      type: "SNAPGAME_EVENT_HEARTBEAT"
+		      type: "SNAPGAME_EVENT_HEARTBEAT",
+		      sequence,
+		      rawScore: score,
+		      metrics: {
+		        score,
+		        bestScore: Math.max(
+		          Number(runtime.globalVars.BestScore) || 0,
+		          score
+		        ),
+		        currentLevel: Number(runtime.globalVars.CurrentLevel) || 1,
+		        bridgesCrossed: Number(runtime.globalVars.BridgesCrossed) || 0,
+		        perfectCount: Number(runtime.globalVars.PerfectCount) || 0,
+		        lotusCollected: Number(runtime.globalVars.LotusCollected) || 0,
+		        incenseCollected: Number(runtime.globalVars.IncenseCollected) || 0,
+		        candleCollected: Number(runtime.globalVars.CandleCollected) || 0,
+		        bayBenCollected: Number(runtime.globalVars.BayBenCollected) || 0
+		      }
 		    },
 		    window.__snapGameWapOrigin
 		  );
 		
-		  console.log("[GAME] HEARTBEAT sent");
+		  console.log("[GAME] HEARTBEAT sent", { sequence, rawScore: score });
 		}
 	},
 

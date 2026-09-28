@@ -239,7 +239,8 @@ self.C3_JsPropNameTable = [
 	{ItemSpawnedForBridge: 0},
 	{CurrentBridgePerfect: 0},
 	{ItemRoll: 0},
-	{Music_Status: 0}
+	{Music_Status: 0},
+	{HostEventSequence: 0}
 ];
 
 self.InstanceType = {
