@@ -2,7 +2,7 @@
 
 const scriptsInEvents = {
 
-	async Gameevent_Event20_Act2(runtime, localVars)
+	async Gameevent_Event22_Act2(runtime, localVars)
 	{
 		if (window.__snapGameWapOrigin) {
 		  window.parent.postMessage(
@@ -16,7 +16,7 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Gameevent_Event21_Act3(runtime, localVars)
+	async Gameevent_Event23_Act3(runtime, localVars)
 	{
 		// if (window.__snapGameWapOrigin) {
 		//   console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized);
@@ -25,7 +25,7 @@ const scriptsInEvents = {
 		// console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized, window.__snapGameWapOrigin);
 	},
 
-	async Gameevent_Event42_Act2(runtime, localVars)
+	async Gameevent_Event44_Act2(runtime, localVars)
 	{
 		if (
 		  window.__snapGameWapOrigin &&
@@ -82,7 +82,7 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Gameevent_Event56_Act1(runtime, localVars)
+	async Gameevent_Event58_Act1(runtime, localVars)
 	{
 		if (window.__snapGameWapOrigin) {
 		  // window.parent.postMessage(
