@@ -131,7 +131,7 @@ const scriptsInEvents = {
 	async Globalevent_Event2_Act11(runtime, localVars)
 	{
 		const ALLOWED_WAP_ORIGINS = [
-		  "http://game.tv360.metfone.com.kh",
+		  "https://game.tv360.metfone.com.kh",
 		  "http://103.124.92.216:8080",
 		  "http://localhost:4001"
 		];
