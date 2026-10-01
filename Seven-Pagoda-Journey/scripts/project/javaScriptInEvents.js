@@ -205,24 +205,20 @@ const scriptsInEvents = {
 				        );
 		        const selectedCharacter = Number(message.selectedCharacter);
 		
-		const safeCharacter =
-		  Number.isFinite(selectedCharacter)
-		    ? Math.min(3, Math.max(0, selectedCharacter))
-		    : 0;
+		        const safeCharacter = Number.isFinite(selectedCharacter) ? Math.min(3, Math.max(0, selectedCharacter)) : 0;
 		
-		runtime.globalVars.SelectedCharacter = safeCharacter;
+		        runtime.globalVars.SelectedCharacter = safeCharacter;
 		
-		if (safeCharacter < 2) {
-		  runtime.globalVars.SelectedGender = 0;
-		  runtime.globalVars.PreviewIndex = safeCharacter;
-		} else {
-		  runtime.globalVars.SelectedGender = 1;
-		  runtime.globalVars.PreviewIndex = safeCharacter - 2;
-		}
+		        if (safeCharacter < 2) {
+		          runtime.globalVars.SelectedGender = 0;
+		          runtime.globalVars.PreviewIndex = safeCharacter;
+		        } else {
+		          runtime.globalVars.SelectedGender = 1;
+		          runtime.globalVars.PreviewIndex = safeCharacter - 2;
+		        }
 		
-		runtime.globalVars.CharacterName =
-		  String(message.characterName || "Male01");
-		
+		        runtime.globalVars.CharacterName = String(message.characterName || "Male01");
+		        runtime.globalVars.SkipCharacterSelection = message.skipCharacterSelection === true ? 1 : 0;
 		        // Nếu người chơi đã bấm Play trước INIT, gửi START ngay lúc này.
 		        sendStartWhenReady();
 		

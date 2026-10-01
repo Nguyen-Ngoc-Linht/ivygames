@@ -240,7 +240,8 @@ self.C3_JsPropNameTable = [
 	{CurrentBridgePerfect: 0},
 	{ItemRoll: 0},
 	{Music_Status: 0},
-	{HostEventSequence: 0}
+	{HostEventSequence: 0},
+	{SkipCharacterSelection: 0}
 ];
 
 self.InstanceType = {
