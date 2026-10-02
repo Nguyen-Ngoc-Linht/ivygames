@@ -1473,9 +1473,10 @@ function or(l, r)
 
 self.C3_ExpressionFuncs = [
 		() => "Game_Settings",
-		() => 0,
-		() => "Male01",
 		() => 1,
+		() => 0,
+		() => 0.15,
+		() => "Male01",
 		() => "Male02",
 		() => 2,
 		() => "Female01",

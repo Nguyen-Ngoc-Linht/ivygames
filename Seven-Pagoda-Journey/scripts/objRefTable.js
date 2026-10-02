@@ -20,6 +20,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.IsGroupActive,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.System.Cnds.CompareVar,
+		C3.Plugins.System.Acts.Wait,
+		C3.JavaScriptInEvents.Gameevent_Event2_Act2,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Sprite.Acts.SetPos,
 		C3.Plugins.System.Exps.layoutwidth,
@@ -48,9 +50,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch.Cnds.IsInTouch,
 		C3.Plugins.Sprite.Exps.Height,
 		C3.Plugins.Touch.Cnds.OnTouchStart,
-		C3.JavaScriptInEvents.Gameevent_Event22_Act2,
+		C3.JavaScriptInEvents.Gameevent_Event23_Act2,
 		C3.Plugins.Touch.Cnds.OnTouchEnd,
-		C3.JavaScriptInEvents.Gameevent_Event23_Act3,
+		C3.JavaScriptInEvents.Gameevent_Event24_Act3,
 		C3.Plugins.Sprite.Cnds.IsBetweenAngles,
 		C3.Plugins.Sprite.Exps.Angle,
 		C3.Plugins.Audio.Cnds.IsTagPlaying,
@@ -66,8 +68,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Fade.Acts.RestartFade,
 		C3.Plugins.LocalStorage.Acts.SetItem,
 		C3.Plugins.System.Exps.projectname,
-		C3.Plugins.System.Acts.Wait,
-		C3.JavaScriptInEvents.Gameevent_Event44_Act2,
+		C3.JavaScriptInEvents.Gameevent_Event45_Act2,
 		C3.Plugins.System.Exps.max,
 		C3.Plugins.System.Cnds.TriggerOnce,
 		C3.Plugins.Sprite.Acts.SetOpacity,
@@ -80,7 +81,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Exps.Y,
 		C3.Plugins.Sprite.Acts.SetCollisions,
 		C3.Plugins.System.Cnds.Every,
-		C3.JavaScriptInEvents.Gameevent_Event58_Act1,
+		C3.JavaScriptInEvents.Gameevent_Event59_Act1,
 		C3.Plugins.Audio.Acts.Preload,
 		C3.Plugins.System.Cnds.Compare,
 		C3.Plugins.System.Exps.loadingprogress,
@@ -132,7 +133,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.JavaScriptInEvents.Characterselectevent_Event11_Act3,
 		C3.JavaScriptInEvents.Characterselectevent_Event12_Act3,
 		C3.JavaScriptInEvents.Characterselectevent_Event13_Act3,
-		C3.JavaScriptInEvents.Characterselectevent_Event14_Act3
+		C3.JavaScriptInEvents.Characterselectevent_Event14_Act3,
+		C3.JavaScriptInEvents.Characterselectevent_Event18_Act1
 	];
 };
 self.C3_JsPropNameTable = [
@@ -241,7 +243,8 @@ self.C3_JsPropNameTable = [
 	{ItemRoll: 0},
 	{Music_Status: 0},
 	{HostEventSequence: 0},
-	{SkipCharacterSelection: 0}
+	{SkipCharacterSelection: 0},
+	{VisualReadySent: 0}
 ];
 
 self.InstanceType = {

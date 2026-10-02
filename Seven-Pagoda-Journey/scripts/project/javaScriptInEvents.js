@@ -2,7 +2,7 @@
 
 const scriptsInEvents = {
 
-	async Gameevent_Event22_Act2(runtime, localVars)
+	async Gameevent_Event23_Act2(runtime, localVars)
 	{
 		if (window.__snapGameWapOrigin) {
 		  window.parent.postMessage(
@@ -16,7 +16,7 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Gameevent_Event23_Act3(runtime, localVars)
+	async Gameevent_Event24_Act3(runtime, localVars)
 	{
 		// if (window.__snapGameWapOrigin) {
 		//   console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized);
@@ -25,7 +25,7 @@ const scriptsInEvents = {
 		// console.log("[GAME] START sent", runtime.globalVars.HostFinished, runtime.globalVars.HostStartRequested, runtime.globalVars.HostInitialized, window.__snapGameWapOrigin);
 	},
 
-	async Gameevent_Event44_Act2(runtime, localVars)
+	async Gameevent_Event45_Act2(runtime, localVars)
 	{
 		if (
 		  window.__snapGameWapOrigin &&
@@ -82,7 +82,7 @@ const scriptsInEvents = {
 		}
 	},
 
-	async Gameevent_Event58_Act1(runtime, localVars)
+	async Gameevent_Event59_Act1(runtime, localVars)
 	{
 		if (window.__snapGameWapOrigin) {
 		  // window.parent.postMessage(
@@ -307,6 +307,44 @@ const scriptsInEvents = {
 		  selectedCharacter: 3,
 		  characterName: "Female02"
 		}, "*");
+	},
+
+	async Characterselectevent_Event18_Act1(runtime, localVars)
+	{
+		if (
+		  window.__snapGameWapOrigin &&
+		  runtime.globalVars.VisualReadySent === 0
+		) {
+		  runtime.globalVars.VisualReadySent = 1;
+		
+		  window.parent.postMessage(
+		    {
+		      type: "SNAPGAME_EVENT_VISUAL_READY"
+		    },
+		    window.__snapGameWapOrigin
+		  );
+		
+		  console.log("[GAME] → WAP VISUAL_READY");
+		}
+	},
+
+	async Gameevent_Event2_Act2(runtime, localVars)
+	{
+		if (
+		  window.__snapGameWapOrigin &&
+		  runtime.globalVars.VisualReadySent === 0
+		) {
+		  runtime.globalVars.VisualReadySent = 1;
+		
+		  window.parent.postMessage(
+		    {
+		      type: "SNAPGAME_EVENT_VISUAL_READY"
+		    },
+		    window.__snapGameWapOrigin
+		  );
+		
+		  console.log("[GAME] → WAP VISUAL_READY");
+		}
 	}
 };
 
